@@ -1,0 +1,106 @@
+Departure,Arival,Airline,Duration,Stops,Layover time,layover,Via,layover at,Price,Img
+20:50,16:00,Air India,19 hrs 10 min,1 stop,15 hrs 50 min layover,Overnight layover,DEL,Indira Gandhi International Airport,"₹9,884",https://www.gstatic.com/flights/app/2x/arrow_1.png
+08:05,07:20,Air India,23 hrs 15 min,1 stop,20 hrs 20 min layover,Overnight layover,DEL,Indira Gandhi International Airport,"₹10,140",https://www.gstatic.com/flights/app/2x/arrow_1.png
+09:40,07:20,Air India,21 hrs 40 min,1 stop,18 hrs 40 min layover,Overnight layover,DEL,Indira Gandhi International Airport,"₹10,829",https://www.gstatic.com/flights/app/2x/arrow_1.png
+16:40,12:00,Air India,19 hrs 20 min,1 stop,16 hrs 10 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹11,770",https://www.gstatic.com/flights/app/2x/arrow_1.png
+07:50,16:00,"Air India Express, Air India",8 hrs 10 min,1 stop,,,DEL,Indira Gandhi International Airport,"₹12,469",https://www.gstatic.com/flights/app/2x/arrow_1.png
+07:50,07:20,"Air India Express, Air India",23 hrs 30 min,1 stop,20 hrs 40 min layover,Overnight layover,DEL,Indira Gandhi International Airport,"₹12,469",https://www.gstatic.com/flights/app/2x/arrow_1.png
+16:40,07:20,Air India,14 hrs 40 min,2 stops,5 hrs 45 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹14,558",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,Air India,14 hrs 40 min,2 stops,2 hrs 10 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹14,558",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,Air India,14 hrs 40 min,2 stops,6 hrs 55 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹14,780",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,Air India,14 hrs 40 min,2 stops,6 hrs 45 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹14,808",https://www.gstatic.com/flights/app/2x/arrow_2.png
+18:55,07:20,"Air India Express, Air India",36 hrs 25 min,2 stops,9 hrs 55 min layover,Overnight layover,HYD,Rajiv Gandhi International Airport,"₹14,847",https://www.gstatic.com/flights/app/2x/arrow_2.png
+18:55,07:20,"Air India Express, Air India",36 hrs 25 min,2 stops,10 hrs 35 min layover,Overnight layover,HYD,Rajiv Gandhi International Airport,"₹14,847",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,Air India,38 hrs 40 min,2 stops,21 hrs 45 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹14,925",https://www.gstatic.com/flights/app/2x/arrow_2.png
+18:55,16:00,"Air India Express, Air India",21 hrs 5 min,2 stops,9 hrs 5 min layover,Overnight layover,HYD,Rajiv Gandhi International Airport,"₹14,964",https://www.gstatic.com/flights/app/2x/arrow_2.png
+18:55,07:20,"Air India Express, Air India",12 hrs 25 min,2 stops,5 hrs layover,Overnight layover,HYD,Rajiv Gandhi International Airport,"₹15,167",https://www.gstatic.com/flights/app/2x/arrow_2.png
+18:55,07:20,"Air India Express, Air India",36 hrs 25 min,2 stops,9 hrs 5 min layover,Overnight layover,HYD,Rajiv Gandhi International Airport,"₹15,348",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,23 hrs 20 min,2 stops,10 hrs 45 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹15,386",https://www.gstatic.com/flights/app/2x/arrow_2.png
+18:55,12:00,"Air India Express, Air India",17 hrs 5 min,2 stops,10 hrs 10 min layover,Overnight layover,HYD,Rajiv Gandhi International Airport,"₹15,400",https://www.gstatic.com/flights/app/2x/arrow_2.png
+18:55,12:00,"Air India Express, Air India",17 hrs 5 min,2 stops,9 hrs 50 min layover,Overnight layover,HYD,Rajiv Gandhi International Airport,"₹15,400",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,Air India,14 hrs 40 min,2 stops,4 hrs 55 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹15,534",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,23 hrs 20 min,2 stops,15 hrs 20 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹15,635",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,Air India,14 hrs 40 min,2 stops,8 hrs layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹15,773",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,47 hrs 20 min,2 stops,20 hrs 25 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹15,805",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,47 hrs 20 min,2 stops,20 hrs 55 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹15,805",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,Air India,38 hrs 40 min,2 stops,18 hrs 15 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,012",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,Air India,38 hrs 40 min,2 stops,20 hrs 25 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,012",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,Air India,38 hrs 40 min,2 stops,20 hrs 55 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,012",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,Air India,14 hrs 40 min,2 stops,8 hrs 40 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,101",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,Air India,14 hrs 40 min,2 stops,8 hrs 20 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,101",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,47 hrs 20 min,2 stops,21 hrs 45 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,173",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,Air India,38 hrs 40 min,2 stops,23 hrs 10 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,231",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,"Air India, Air India Express",14 hrs 40 min,2 stops,8 hrs 5 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,254",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,"Air India, Air India Express",14 hrs 40 min,2 stops,3 hrs 20 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,254",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,23 hrs 20 min,2 stops,13 hrs 30 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,363",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,"Air India, Air India Express",23 hrs 20 min,2 stops,8 hrs 5 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,427",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,"Air India, Air India Express",23 hrs 20 min,2 stops,11 hrs 55 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,427",https://www.gstatic.com/flights/app/2x/arrow_2.png
+18:55,16:00,"Air India Express, Air India",45 hrs 5 min,2 stops,20 hrs layover,Overnight layover,HYD,Rajiv Gandhi International Airport,"₹16,441",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,23 hrs 20 min,2 stops,15 hrs 30 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,481",https://www.gstatic.com/flights/app/2x/arrow_2.png
+20:50,12:00,Air India,39 hrs 10 min,2 stops,23 hrs 50 min layover,Overnight layover,DEL,Indira Gandhi International Airport,"₹16,502",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,23 hrs 20 min,2 stops,16 hrs 35 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,601",https://www.gstatic.com/flights/app/2x/arrow_2.png
+18:55,07:20,"Air India Express, Air India",36 hrs 25 min,2 stops,20 hrs layover,Overnight layover,HYD,Rajiv Gandhi International Airport,"₹16,648",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,47 hrs 20 min,2 stops,18 hrs 45 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,782",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,23 hrs 20 min,2 stops,17 hrs 15 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,930",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,23 hrs 20 min,2 stops,16 hrs 55 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,930",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,Air India,38 hrs 40 min,2 stops,19 hrs 35 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,988",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,Air India,38 hrs 40 min,2 stops,18 hrs 45 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹16,988",https://www.gstatic.com/flights/app/2x/arrow_2.png
+18:55,16:00,"Air India Express, Air India",45 hrs 5 min,2 stops,22 hrs layover,Overnight layover,HYD,Rajiv Gandhi International Airport,"₹17,141",https://www.gstatic.com/flights/app/2x/arrow_2.png
+18:55,07:20,"Air India Express, Air India",36 hrs 25 min,2 stops,22 hrs layover,Overnight layover,HYD,Rajiv Gandhi International Airport,"₹17,348",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,47 hrs 20 min,2 stops,23 hrs 45 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹17,349",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,47 hrs 20 min,2 stops,23 hrs 10 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹17,479",https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,Air India,38 hrs 40 min,2 stops,23 hrs 45 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,"₹17,555",https://www.gstatic.com/flights/app/2x/arrow_2.png
+21:10,07:20,"Air India Express, Air India",10 hrs 10 min,2 stops,2 hrs 30 min layover,Overnight layover,CCU,Netaji Subhash Chandra Bose International Airport,"₹18,032",https://www.gstatic.com/flights/app/2x/arrow_2.png
+15:50,12:00,"Air India Express, Air India",20 hrs 10 min,2 stops,9 hrs 35 min layover,Overnight layover,BLR,Kempegowda International Airport Bengaluru,"₹18,068",https://www.gstatic.com/flights/app/2x/arrow_2.png
+15:50,12:00,"Air India Express, Air India",20 hrs 10 min,2 stops,11 hrs 50 min layover,Overnight layover,BLR,Kempegowda International Airport Bengaluru,"₹18,158",https://www.gstatic.com/flights/app/2x/arrow_2.png
+15:50,12:00,"Air India Express, Air India",20 hrs 10 min,2 stops,10 hrs 50 min layover,Overnight layover,BLR,Kempegowda International Airport Bengaluru,"₹18,158",https://www.gstatic.com/flights/app/2x/arrow_2.png
+21:10,16:00,"Air India Express, Air India",18 hrs 50 min,2 stops,10 hrs 35 min layover,Overnight layover,CCU,Netaji Subhash Chandra Bose International Airport,"₹18,217",https://www.gstatic.com/flights/app/2x/arrow_2.png
+21:10,16:00,"Air India Express, Air India",18 hrs 50 min,2 stops,11 hrs 5 min layover,Overnight layover,CCU,Netaji Subhash Chandra Bose International Airport,"₹18,217",https://www.gstatic.com/flights/app/2x/arrow_2.png
+15:50,12:00,"Air India Express, Air India",20 hrs 10 min,2 stops,12 hrs 40 min layover,Overnight layover,BLR,Kempegowda International Airport Bengaluru,"₹18,879",https://www.gstatic.com/flights/app/2x/arrow_2.png
+15:50,12:00,"Air India Express, Air India",20 hrs 10 min,2 stops,12 hrs 35 min layover,Overnight layover,BLR,Kempegowda International Airport Bengaluru,"₹18,879",https://www.gstatic.com/flights/app/2x/arrow_2.png
+21:10,16:00,"Air India Express, Air India",18 hrs 50 min,2 stops,7 hrs 25 min layover,Overnight layover,CCU,Netaji Subhash Chandra Bose International Airport,"₹18,887",https://www.gstatic.com/flights/app/2x/arrow_2.png
+15:50,12:00,"Air India Express, Air India",20 hrs 10 min,2 stops,12 hrs 55 min layover,Overnight layover,BLR,Kempegowda International Airport Bengaluru,"₹18,978",https://www.gstatic.com/flights/app/2x/arrow_2.png
+20:50,12:00,Air India,15 hrs 10 min,2 stops,3 hrs 35 min layover,Overnight layover,DEL,Indira Gandhi International Airport,"₹20,033",https://www.gstatic.com/flights/app/2x/arrow_2.png
+11:15,12:00,"Air India Express, Air India",24 hrs 45 min,2 stops,9 hrs 35 min layover,Overnight layover,BLR,Kempegowda International Airport Bengaluru,"₹20,268",https://www.gstatic.com/flights/app/2x/arrow_2.png
+11:15,12:00,"Air India Express, Air India",24 hrs 45 min,2 stops,11 hrs 50 min layover,Overnight layover,BLR,Kempegowda International Airport Bengaluru,"₹20,358",https://www.gstatic.com/flights/app/2x/arrow_2.png
+11:15,12:00,"Air India Express, Air India",24 hrs 45 min,2 stops,10 hrs 50 min layover,Overnight layover,BLR,Kempegowda International Airport Bengaluru,"₹20,358",https://www.gstatic.com/flights/app/2x/arrow_2.png
+11:15,12:00,"Air India Express, Air India",24 hrs 45 min,2 stops,17 hrs 30 min layover,Overnight layover,BLR,Kempegowda International Airport Bengaluru,"₹21,079",https://www.gstatic.com/flights/app/2x/arrow_2.png
+11:15,12:00,"Air India Express, Air India",24 hrs 45 min,2 stops,14 hrs 25 min layover,Overnight layover,BLR,Kempegowda International Airport Bengaluru,"₹21,178",https://www.gstatic.com/flights/app/2x/arrow_2.png
+21:10,16:00,"Air India Express, Air India",18 hrs 50 min,2 stops,7 hrs 55 min layover,Overnight layover,CCU,Netaji Subhash Chandra Bose International Airport,"₹22,188",https://www.gstatic.com/flights/app/2x/arrow_2.png
+20:50,12:00,Air India,15 hrs 10 min,2 stops,7 hrs 35 min layover,Overnight layover,DEL,Indira Gandhi International Airport,"₹23,708",https://www.gstatic.com/flights/app/2x/arrow_2.png
+11:15,12:00,"Air India Express, Air India",24 hrs 45 min,2 stops,12 hrs 35 min layover,Overnight layover,BLR,Kempegowda International Airport Bengaluru,"₹24,319",https://www.gstatic.com/flights/app/2x/arrow_2.png
+11:15,12:00,"Air India Express, Air India",24 hrs 45 min,2 stops,12 hrs 55 min layover,Overnight layover,BLR,Kempegowda International Airport Bengaluru,"₹24,918",https://www.gstatic.com/flights/app/2x/arrow_2.png
+20:50,12:00,Air India,15 hrs 10 min,2 stops,8 hrs 20 min layover,Overnight layover,DEL,Indira Gandhi International Airport,"₹28,433",https://www.gstatic.com/flights/app/2x/arrow_2.png
+20:50,12:00,Air India,15 hrs 10 min,2 stops,8 hrs 50 min layover,Overnight layover,DEL,Indira Gandhi International Airport,"₹41,445",https://www.gstatic.com/flights/app/2x/arrow_2.png
+08:05,12:00,Air India,27 hrs 55 min,2 stops,16 hrs 40 min layover,Overnight layover,DEL,Indira Gandhi International Airport,,https://www.gstatic.com/flights/app/2x/arrow_2.png
+08:05,12:00,Air India,27 hrs 55 min,2 stops,10 hrs 10 min layover,Overnight layover,DEL,Indira Gandhi International Airport,,https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,07:20,Air India,14 hrs 40 min,3 stops,5 hrs layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+16:40,16:00,Air India,23 hrs 20 min,2 stops,15 hrs 45 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,23 hrs 20 min,3 stops,11 hrs 45 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+16:40,16:00,Air India,23 hrs 20 min,3 stops,6 hrs 15 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+16:40,16:00,Air India,23 hrs 20 min,3 stops,5 hrs 25 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+16:40,16:00,Air India,23 hrs 20 min,3 stops,9 hrs layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+16:40,16:00,Air India,23 hrs 20 min,3 stops,6 hrs 55 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+16:40,16:00,Air India,23 hrs 20 min,3 stops,13 hrs 35 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+16:40,16:00,Air India,23 hrs 20 min,3 stops,8 hrs 40 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+16:40,16:00,Air India,23 hrs 20 min,3 stops,7 hrs 50 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+16:40,16:00,Air India,23 hrs 20 min,3 stops,11 hrs 25 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+16:40,16:00,Air India,23 hrs 20 min,3 stops,9 hrs 20 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+16:40,16:00,Air India,23 hrs 20 min,3 stops,11 hrs 55 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+16:40,16:00,Air India,23 hrs 20 min,2 stops,14 hrs 20 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,23 hrs 20 min,2 stops,11 hrs 40 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,23 hrs 20 min,2 stops,16 hrs 15 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_2.png
+16:40,16:00,Air India,23 hrs 20 min,3 stops,12 hrs 10 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+16:40,16:00,Air India,23 hrs 20 min,3 stops,11 hrs 15 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+16:40,16:00,Air India,23 hrs 20 min,3 stops,13 hrs 20 min layover,Overnight layover,BOM,Chhatrapati Shivaji Maharaj International Airport Mumbai,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+20:50,12:00,Air India,15 hrs 10 min,3 stops,3 hrs 50 min layover,Overnight layover,DEL,Indira Gandhi International Airport,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+20:50,12:00,Air India,15 hrs 10 min,3 stops,6 hrs 15 min layover,Overnight layover,DEL,Indira Gandhi International Airport,,https://www.gstatic.com/flights/app/2x/arrow_3.png
+20:50,12:00,Air India,39 hrs 10 min,2 stops,16 hrs 15 min layover,Overnight layover,DEL,Indira Gandhi International Airport,,https://www.gstatic.com/flights/app/2x/arrow_2.png
+20:50,12:00,Air India,39 hrs 10 min,2 stops,12 hrs 20 min layover,Overnight layover,DEL,Indira Gandhi International Airport,,https://www.gstatic.com/flights/app/2x/arrow_2.png
+20:50,12:00,Air India,39 hrs 10 min,2 stops,24 hrs 20 min layover,Overnight layover,DEL,Indira Gandhi International Airport,,https://www.gstatic.com/flights/app/2x/arrow_2.png
+20:50,12:00,Air India,39 hrs 10 min,2 stops,15 hrs 30 min layover,Overnight layover,DEL,Indira Gandhi International Airport,,https://www.gstatic.com/flights/app/2x/arrow_2.png
+20:50,12:00,Air India,39 hrs 10 min,2 stops,16 hrs 50 min layover,Overnight layover,DEL,Indira Gandhi International Airport,,https://www.gstatic.com/flights/app/2x/arrow_2.png
+20:50,12:00,Air India,39 hrs 10 min,2 stops,17 hrs 50 min layover,Overnight layover,DEL,Indira Gandhi International Airport,,https://www.gstatic.com/flights/app/2x/arrow_2.png
+20:50,12:00,Air India,39 hrs 10 min,2 stops,14 hrs 40 min layover,Overnight layover,DEL,Indira Gandhi International Airport,,https://www.gstatic.com/flights/app/2x/arrow_2.png
+20:50,12:00,Air India,39 hrs 10 min,2 stops,14 hrs 5 min layover,Overnight layover,DEL,Indira Gandhi International Airport,,https://www.gstatic.com/flights/app/2x/arrow_2.png
+20:50,12:00,Air India,39 hrs 10 min,2 stops,23 hrs 20 min layover,Overnight layover,DEL,Indira Gandhi International Airport,,https://www.gstatic.com/flights/app/2x/arrow_2.png
