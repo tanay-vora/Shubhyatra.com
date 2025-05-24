@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tourist Places - Shubh Yatra</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    /* Global Styles */
+    body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background:url(assets/TOUR.png) no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }
+    .container {
+      flex: 1;
+      max-width: 1100px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Navbar */
+    .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0));
+            padding: 15px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    .navbar a {
+      color: #000000;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px 15px;
+    }
+    .navbar a:hover {
+      background: transparent;
+      border-radius: 5px;
+    }
+    .logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+            display: flex;
+            align-items: center;
+            color: transparent;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background 0.3s ease-in-out;
+        }
+
+        
+
+    /* Search Section */
+    .search-section {
+      margin: 20px auto;
+      text-align: center;
+    }
+    .search-section input {
+      padding: 10px;
+      width: 60%;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      font-size: 16px;
+    }
+    .search-section button {
+      padding: 10px;
+      background: #262424;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .search-section button:hover {
+      background: #ffffff;
+      color: #262424;
+    }
+
+    /* Results Section */
+    .results-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .result-card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      height: 100%;
+    }
+    .result-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+    .result-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .result-card h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+    }
+    .result-card p {
+      font-size: 14px;
+      color: #555;
+      margin: 5px 0;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 1024px) {
+      .results-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 768px) {
+      .results-container {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    /* Footer */
+    footer {
+      background: #262424;
+      color: #ffffff;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: auto;
+      width: 100%;
+    }
+    .footer-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+    .footer-section {
+      text-align: left;
+    }
+    .footer-section h3 {
+      margin-bottom: 10px;
+    }
+    .footer-section a {
+      display: block;
+      color: #ffffff;
+      text-decoration: none;
+      margin-bottom: 5px;
+    }
+    .footer-section a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="logo">
+  <a href="new.html">
+      <img src="assets/Logo.png" alt="Subhyatara Logo">
+</a>
+</div>
+<ul class="nav-links">
+  <li><a href="new.html">Home</a></li>
+  <li><a href="hotel.html">Hotels</a></li>
+  <li><a href="car rental.html">Car Rental</a></li>
+  <li><a href="bus.html">Bus</a></li>
+</ul>
+<ul class="nav-links">
+  <li><a href="about.html">About Us</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
+
+
+<div class="container">
+  <h1>Explore Beautiful Tourist Places</h1>
+  <p>Find the best travel destinations with Shubh Yatra.</p>
+
+  <!-- Search Section -->
+  <div class="search-section">
+    <input type="text" id="searchInput" placeholder="Search for a place...">
+    <button onclick="search()">Search</button>
+  </div>
+
+  <!-- Results Section -->
+  <div class="results-container" id="resultsContainer"></div>
+</div>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>About Us</h3>
+      <p>Shubh Yatra is your trusted travel partner, offering the best travel experiences and destination guides.</p>
+    </div>
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <p>Email: support@shubhyatra.co</p>
+      <p>Phone: +91 12345 67890</p>
+    </div>
+    <div class="footer-section">
+      <h3>Follow Us</h3>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+    </div>
+  </div>
+  <p>&copy; 2025 Shubh Yatra | Your Travel Partner</p>
+</footer>
+
+<script>
+  async function search() {
+    const query = document.getElementById('searchInput').value;
+    const placesContainer = document.getElementById('resultsContainer');
+
+    placesContainer.innerHTML = "<p>Loading results...</p>";
+
+    try {
+      const response = await fetch(`http://localhost:8000/tplaces/${query}`);
+      if (!response.ok) throw new Error("City not found");
+
+      const places = await response.json();
+      placesContainer.innerHTML = "";
+
+      if (places.length === 0) {
+        placesContainer.innerHTML = "<p>No tourist places found.</p>";
+        return;
+      }
+
+      places.forEach(place => {
+        let placeImage = place.Images && place.Images.startsWith("http")
+          ? place.Images
+          : "https://via.placeholder.com/300?text=No+Image";
+
+        const placeCard = document.createElement("div");
+        placeCard.classList.add("result-card");
+        placeCard.innerHTML = `
+          <img src="${placeImage}" alt="${place.Name}" onerror="this.src='https://via.placeholder.com/300?text=Image+Not+Found';">
+          <h3>${place.Name}</h3>
+          <p>${place.Prices}</p>
+          <p>${place.Rating}⭐</p>
+        `;
+        placesContainer.appendChild(placeCard);
+      });
+    } catch (error) {
+      placesContainer.innerHTML = `<p class="error-message">${error.message}</p>`;
+    }
+  }
+</script>
+
+</body>
+</html>

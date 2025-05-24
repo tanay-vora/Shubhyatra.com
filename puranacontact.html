@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Subhyatara</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #EEE5DA;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #262424;
+            color: #EEE5DA;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .logo img {
+            height: 50px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .nav-links a {
+            color: #EEE5DA;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .container {
+            max-width: 700px;
+            width: 90%;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            flex: 1;
+        }
+
+        h2, h3 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            font-size: 18px;
+            color: #262424;
+        }
+
+        .complaint-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .complaint-form input, 
+        .complaint-form textarea {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .complaint-form button {
+            background: #262424;
+            color: #EEE5DA;
+            border: none;
+            padding: 12px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .complaint-form button:hover {
+            background: #EEE5DA; color: #262424;
+        }
+
+        .chat-card {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 250px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .chat-card:hover {
+            transform: scale(1.05);
+        }
+
+        .chat-button {
+            background: #262424;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 14px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .chat-button:hover {
+            background: #0056b3;
+        }
+
+        footer {
+            background: #262424;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="new.html">
+                <img src="assets/logo.png" alt="Logo">
+            </a>
+        </div>
+       <!-- <nav>
+            <div class="nav-links">
+                <a href="hotel.html">Hotels</a>
+                <a href="flight.html">Flights</a>
+                <a href="car rental.html">Car Rentals</a>
+                <a href="cruises.html">Cruises</a>
+                <a href="tripplanner.html">Travel Planner</a>
+            </div>
+        </nav>-->
+    </header>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p>📧 Support Email: <strong>support@subhyatara.com</strong></p>
+        </div>
+        <h3>Submit a Complaint</h3>
+        <form class="complaint-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Describe your issue..." required></textarea>
+            <button type="submit">Submit Complaint</button>
+        </form>
+    </div>
+
+    <div class="chat-card">
+        <h3>Need Help?</h3>
+        <p>Chat with our AI assistant for instant support.</p>
+        <button class="chat-button" onclick="startChat()">Start Chat</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Subhyatara. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function startChat() {
+            alert("Chatbot feature coming soon!");
+        }
+    </script>
+</body>
+</html>

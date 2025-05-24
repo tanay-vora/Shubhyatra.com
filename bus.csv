@@ -1,0 +1,953 @@
+from,to,name,subtitle,departure-time,duration,arrival-time,rating,price,availablity
+bhopal,ayodhya,BETRWANTI TRAVELS,AC Sleeper (2 + 1),21:15,15h.45m,13:00,3.5,3799,18 Seats Available
+bhopal,ayodhya,BETRWANTI TRAVELS,NON-AC Sleeper (2 + 1),19:15,14h.45m,10:00,3.5,2299,13 Seats Available
+bhopal,ayodhya,BETRWANTI TRAVELS,NON-AC Sleeper (2 + 1),19:15,13h.45m,09:00,3.5,2299,15 Seats Available
+bhopal,ayodhya,BETRWANTI TRAVELS,AC Sleeper (2 + 1),21:15,16h,13:15,3.5,3799,13 Seats Available
+bhopal,ayodhya,Shivansh Travels,AC Sleeper (2 + 1),19:00,16h.30m,11:30,,2900,30 Seats Available
+bhopal,ayodhya,NTC Smart Bus,AC Sleeper (2 + 1),22:00,34h,08:00,,"4,800",21 Seats Available
+bhopal,ayodhya,Shivansh Travels,AC Sleeper (2 + 1),19:00,15h.55m,10:55,,2900,30 Seats Available
+bhopal,ayodhya,Sunil Tour and Travels,AC Sleeper (2 + 1),13:00,18h,07:00,,"1,899",30 Seats Available
+bhopal,ayodhya,Sunil Tour and Travels,"2+2, Sleeper, NON-AC",21:00,17h.30m,14:30,,"1,499",40 Seats Available
+bhopal,ayodhya,Sunil Tour and Travels,AC Sleeper (2 + 1),22:15,17h.30m,15:45,,"1,799",30 Seats Available
+bhopal,indore,SANJAY TRAVELS (INDORE),Ashok Leyland AC Sleeper,06:50,03h.20m,10:10,4.2,"1,100",36 Seats Available
+bhopal,indore,Chouhan Tours and Travels,NON-AC Seater (3 + 2),13:50,04h.20m,18:10,,255,15 Seats Available
+bhopal,indore,Bhaiya Travels,AC Sleeper (2 + 1),05:30,04h.30m,10:00,4.6,"2,000",36 Seats Available
+bhopal,indore,Vishvas Transport Services Private Limited,AC Sleeper (2 + 1),02:30,04h,06:30,,499,20 Seats Available
+bhopal,indore,BETRWANTI TRAVELS,AC Sleeper (2 + 1),05:30,03h.30m,09:00,,1440,14 Seats Available
+bhopal,indore,Chouhan Tours and Travels,NON-AC Seater (2 + 2),13:40,03h.50m,17:30,,298,18 Seats Available
+bhopal,indore,Chouhan Tours and Travels,NON-AC Seater (3 + 2),14:10,05h,19:10,,255,12 Seats Available
+bhopal,indore,Gajraj Travels,"2+1, Sleeper with Washroom, AC, Non-Video",03:45,04h.15m,08:00,4.5,"1,500",33 Seats Available
+bhopal,indore,Barkoti Travels,"2+1, Sleeper-Seater, NON-AC",02:25,03h.40m,06:05,,600,42 Seats Available
+bhopal,indore,Om Shanti Travels,AC Sleeper (2 + 1),02:30,03h.30m,06:00,4.5,750,20 Seats Available
+bhopal,indore,Bhaiya Travels,AC Sleeper (2 + 1),03:00,02h,05:00,4.6,"8,500",36 Seats Available
+bhopal,indore,Shree Devnarayan Travels,NON-AC Seater/Sleeper (2 + 1),14:00,04h.30m,18:30,4.5,"2,500",16 Seats Available
+bhopal,indore,National Travels (Abd),AC Sleeper (2 + 1),18:55,03h.50m,22:45,,"1,300",25 Seats Available
+bhopal,indore,B.R. Travels,Ashok Leyland AC Sleeper,18:00,04h.55m,22:55,4.5,"2,382",36 Seats Available
+bhopal,indore,Ashok Bus Service,AC Seater/Sleeper (2 + 1),19:00,04h.15m,23:15,4.5,360,38 Seats Available
+bhopal,indore,Ashok Bus Service,"2+1, Sleeper-Seater, NON-AC, Non-Video",17:20,04h.25m,21:45,4.5,450,37 Seats Available
+bhopal,indore,Barkoti Travels,"2+1, Sleeper-Seater, NON-AC",01:30,03h.30m,05:00,,650,42 Seats Available
+bhopal,indore,Guru Saheb Tour and Travels,"2+1, Sleeper, NON-AC",03:30,03h.30m,07:00,,700,30 Seats Available
+bhopal,indore,Raaj Rath Travels Co.,AC Seater/Sleeper (2 + 1),05:45,04h.10m,09:55,4.3,"1,801",34 Seats Available
+bhopal,indore,Bhaiya Travels,Bharat Benz AC Sleeper (2 + 1),21:30,02h.50m,00:20,4.6,700,36 Seats Available
+bhopal,indore,Jai Bhawani Travels,Bharat Benz AC Sleeper (2 + 1),06:10,03h.20m,09:30,,"2,599",15 Seats Available
+bhopal,indore,Raj Ratan Tours & Travels,Bharat Benz AC Sleeper (2 + 1),15:15,05h,20:15,4.5,539,19 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),22:00,04h.10m,02:10,4.4,290,20 Seats Available
+bhopal,indore,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,02:30,04h.20m,06:50,,400,24 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),08:30,04h,12:30,4.4,420,18 Seats Available
+bhopal,indore,Shrinath® Travel Agency Pvt. Ltd.,TATA AC Sleeper,17:15,05h,22:15,4.1,400,36 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),13:00,03h.40m,16:40,4.4,420,20 Seats Available
+bhopal,indore,M R Travels,AC Sleeper (2 + 1),18:00,05h,23:00,4.1,500,19 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),06:30,04h,10:30,4.4,420,10 Seats Available
+bhopal,indore,Veer Travels,AC Sleeper (2 + 1),18:00,04h.29m,22:29,4.1,"2,500",36 Seats Available
+bhopal,indore,Ashok Travels Mandsaur,NON-AC Seater/Sleeper (2 + 1),19:12,04h.43m,23:55,4.1,350,48 Seats Available
+bhopal,indore,Hans Travels (I) Pvt Ltd.,Bharat Benz AC Seater,16:00,04h,20:00,,333,45 Seats Available
+bhopal,indore,Nandan Travels Seoni,AC Seater/Sleeper (2 + 2),02:25,03h,05:25,4.1,510,51 Seats Available
+bhopal,indore,Jai Bhawani Travels,"2+1, Non A-C Capella Seat-Sleeper, NON-AC, Non-Video",04:05,03h.25m,07:30,,299,32 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),21:30,03h.30m,01:00,4.4,290,18 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),20:15,04h,00:15,4.4,290,10 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),15:30,03h.40m,19:10,4.4,420,14 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),11:00,03h.30m,14:30,4.4,290,13 Seats Available
+bhopal,indore,Raj Ratan Tours & Travels,VOLVO 9600 AC Multiaxle Sleeper (2 + 1),16:45,05h,21:45,4.5,499,15 Seats Available
+bhopal,indore,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,07:30,03h.30m,11:00,,500,24 Seats Available
+bhopal,indore,M R Travels,VOLVO AC Multiaxle Sleeper (2 + 1),17:30,05h,22:30,4.1,"1,400",18 Seats Available
+bhopal,indore,Raj Ratan Tours & Travels,VOLVO 9600 AC Multiaxle Sleeper (2 + 1),15:15,05h,20:15,4.5,499,18 Seats Available
+bhopal,indore,Hans Travels (I) Pvt Ltd.,VOLVO AC Multiaxle Sleeper,06:55,04h.06m,11:01,,"1,400",22 Seats Available
+bhopal,indore,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,06:30,04h.40m,11:10,,"1,048",24 Seats Available
+bhopal,indore,Nandan Travels Seoni,"2+2, Sleeper-Seater, NON-AC",04:45,03h.15m,08:00,4.1,510,51 Seats Available
+bhopal,indore,Raj Ratan Tours & Travels,VOLVO 9600 AC Multiaxle Sleeper (2 + 1),16:45,05h,21:45,4.5,599,15 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),08:45,04h,12:45,4.4,290,19 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),01:00,04h,05:00,4.4,290,12 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),08:00,04h,12:00,4.4,420,15 Seats Available
+bhopal,indore,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,00:44,03h.40m,04:24,,571,36 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),23:00,04h,03:00,4.4,290,17 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),20:30,03h.30m,00:00,4.4,290,16 Seats Available
+bhopal,indore,Ashok Travels Mandsaur,VE AC Seater,18:45,04h.15m,23:00,4.1,500,36 Seats Available
+bhopal,indore,Intercity Travels (Indore),AC Sleeper (2 + 1),02:10,04h.35m,06:45,4.4,"1,300",30 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),12:15,04h,16:15,4.4,290,14 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),16:30,03h.40m,20:10,4.4,420,19 Seats Available
+bhopal,indore,H.K TRAVELS,NON-AC Sleeper (2 + 1),21:00,04h.30m,01:30,4.1,800,17 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),12:00,03h.30m,15:30,4.4,420,17 Seats Available
+bhopal,indore,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,03:15,03h,06:15,,400,24 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),18:30,03h.30m,22:00,4.4,420,15 Seats Available
+bhopal,indore,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,15:00,04h.30m,19:30,,"1,238",24 Seats Available
+bhopal,indore,Yadav Bus Services,NON-AC Seater (2 + 2),11:05,07h.25m,18:30,4.1,315,17 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),10:00,03h.40m,13:40,4.4,420,10 Seats Available
+bhopal,indore,Jai Bhawani Travels,AC Sleeper (2 + 1),02:30,04h,06:30,,"1,444",31 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),05:59,03h.36m,09:35,4.4,290,16 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),10:30,03h.30m,14:00,4.4,420,20 Seats Available
+bhopal,indore,Deep Travels,AC Sleeper (2 + 1),20:00,03h.59m,23:59,,"1,500",22 Seats Available
+bhopal,indore,Raj Ratan Tours & Travels,Bharat Benz AC Sleeper (2 + 1),15:15,05h.30m,20:45,4.5,"3,199",13 Seats Available
+bhopal,indore,New Royal Travels,Bharat Benz AC Sleeper (2 + 1),05:30,03h,08:30,4.4,1666,36 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),07:45,04h,11:45,4.4,290,20 Seats Available
+bhopal,indore,Maa Baneshwari Travels,"2+2, Seater, NON-AC",06:40,04h.20m,11:00,,327,26 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),19:30,03h.30m,23:00,4.4,420,12 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),20:00,03h.30m,23:30,4.4,420,16 Seats Available
+bhopal,indore,Raj Ratan Tours & Travels,VOLVO AC Multiaxle Sleeper (2 + 1),16:45,05h,21:45,4.5,599,20 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),11:30,03h.30m,15:00,4.4,420,16 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),14:00,03h.40m,17:40,4.4,420,17 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),17:30,03h.30m,21:00,4.4,420,18 Seats Available
+bhopal,indore,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,05:30,03h.05m,08:35,,571,24 Seats Available
+bhopal,indore,Nandan Travels Seoni,"2+1, Executive Sleeper-Seater, NON-AC",04:15,03h.15m,07:30,4.1,510,39 Seats Available
+bhopal,indore,Jai Bhawani Travels,VE AC Sleeper (2 + 1),04:30,03h.30m,08:00,,"1,399",20 Seats Available
+bhopal,indore,Pawan Travels Balaghat,"2+2, Sleeper-Seater, NON-AC",04:20,03h.50m,08:10,,276,51 Seats Available
+bhopal,indore,New Royal Travels,Bharat Benz AC Sleeper (2 + 1),04:50,04h.10m,09:00,4.4,1666,28 Seats Available
+bhopal,indore,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,04:15,02h.45m,07:00,,381,22 Seats Available
+bhopal,indore,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,06:15,04h.34m,10:49,,"1,100",9 Seats Available
+bhopal,indore,Nandan Travels Seoni,"2+1, Executive Sleeper-Seater, NON-AC",03:00,04h,07:00,4.1,510,45 Seats Available
+bhopal,indore,Nandan Travels Seoni,AC Seater/Sleeper (2 + 1),04:35,03h.10m,07:45,4.1,510,45 Seats Available
+bhopal,indore,Sadguru Shivam Travels,"2+1, Sleeper, NON-AC",13:00,03h.30m,16:30,,1880,36 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),13:30,03h.40m,17:10,4.4,420,10 Seats Available
+bhopal,indore,Ambay Travels Indore,AC Sleeper (2 + 1),05:00,04h,09:00,,"1,000",36 Seats Available
+bhopal,indore,Nandan Travels Seoni,AC Seater/Sleeper (2 + 1),04:30,03h.30m,08:00,4.1,610,45 Seats Available
+bhopal,indore,H.K TRAVELS,NON-AC Sleeper (2 + 1),20:00,03h.59m,23:59,4.1,800,18 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),17:00,03h.30m,20:30,4.4,420,11 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),19:00,03h.30m,22:30,4.4,420,14 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),15:00,03h.40m,18:40,4.4,420,13 Seats Available
+bhopal,indore,Humsafar Travels,AC Sleeper (2 + 1),18:30,04h.30m,23:00,4.1,"1,550",14 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),07:30,04h,11:30,4.4,420,12 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),16:00,03h.40m,19:40,4.4,420,15 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),07:00,04h,11:00,4.4,420,11 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),23:30,03h.55m,03:25,4.4,290,17 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),07:15,04h,11:15,4.4,290,12 Seats Available
+bhopal,indore,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,15:00,05h.30m,20:30,,"1,100",24 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),18:00,03h.30m,21:30,4.4,420,20 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),12:30,03h.40m,16:10,4.4,420,11 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),03:00,04h,07:00,4.4,290,18 Seats Available
+bhopal,indore,Shrinath® Travel Agency Pvt. Ltd.,TATA AC Sleeper,18:15,04h.30m,22:45,4.1,400,36 Seats Available
+bhopal,indore,Ashok Travels Mandsaur,Bharat Benz AC Sleeper (2 + 1),19:45,04h.14m,23:59,4.1,500,23 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),06:00,04h,10:00,4.4,420,13 Seats Available
+bhopal,indore,Raj Ratan Tours & Travels,Bharat Benz AC Sleeper (2 + 1),06:45,04h.15m,11:00,4.5,499,16 Seats Available
+bhopal,indore,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),14:30,03h.40m,18:10,4.4,420,20 Seats Available
+bhopal,indore,Jai Bhawani Travels,VE AC Seater,05:30,03h.20m,08:50,,555,24 Seats Available
+bhopal,indore,Intercity Travels (Indore),VOLVO AC Multiaxle Sleeper (2 + 1),05:40,03h.20m,09:00,4.4,"1,700",41 Seats Available
+bhopal,indore,Yadav Bus Services,2 X 2 (44) AC SEAT- AC,06:00,07h.05m,13:05,4.1,360,11 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),06:45,03h.45m,10:30,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),13:15,03h.45m,17:00,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),15:30,03h.45m,19:15,,457,55 Seats Available
+bhopal,indore,Verma Travels,"2+1, Sleeper, NON-AC",17:00,05h,22:00,,"1,200",23 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),10:30,03h.45m,14:15,,457,55 Seats Available
+bhopal,indore,Verma Travels,"2+2, Sleeper, NON-AC",04:00,03h.30m,07:30,,550,44 Seats Available
+bhopal,indore,Verma Travels,VOLVO 9600 AC Multiaxle Sleeper (2 + 1),19:00,03h.45m,22:45,,"2,299",34 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),19:30,03h.45m,23:15,,457,55 Seats Available
+bhopal,indore,Verma Travels,"2+2, Sleeper-Seater, NON-AC",01:35,04h.20m,05:55,,300,37 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),18:45,03h.45m,22:30,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),17:30,03h.45m,21:15,,457,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),16:00,03h.45m,19:45,,363,50 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),07:00,03h.45m,10:45,,457,45 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),11:00,03h.45m,14:45,,457,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),17:00,03h.45m,20:45,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),08:30,03h.45m,12:15,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),12:00,03h.45m,15:45,,457,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),21:00,03h.45m,00:45,,363,49 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),06:00,03h.45m,09:45,,457,46 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),05:30,03h.45m,09:15,,457,55 Seats Available
+bhopal,indore,Hans Travels (I) Pvt Ltd,NON-AC Sleeper (2 + 1),05:00,03h.05m,08:05,,600,16 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),07:30,03h.45m,11:15,,363,55 Seats Available
+bhopal,indore,Verma Travels,AC Sleeper (2 + 1),17:30,04h.15m,21:45,,"1,300",22 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),21:30,03h.45m,01:15,,457,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),17:45,03h.45m,21:30,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),14:45,03h.45m,18:30,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),06:30,03h.45m,10:15,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),19:00,03h.45m,22:45,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),08:00,03h.45m,11:45,,457,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),07:15,03h.45m,11:00,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),13:30,03h.45m,17:15,,457,55 Seats Available
+bhopal,indore,Dhariwal Travels,AC Sleeper (2 + 1),08:00,03h.25m,11:25,,500,10 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),14:30,03h.45m,18:15,,457,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),20:30,03h.45m,00:15,,457,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),10:00,03h.45m,13:45,,457,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),20:00,03h.45m,23:45,,363,55 Seats Available
+bhopal,indore,Verma Travels,VOLVO AC Multiaxle Sleeper (2 + 1),19:00,04h,23:00,,"1,399",23 Seats Available
+bhopal,indore,Verma Travels,VOLVO AC Multiaxle Sleeper (2 + 1),18:30,04h.15m,22:45,,"2,299",37 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),08:45,03h.45m,12:30,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),15:45,03h.45m,19:30,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),18:00,03h.45m,21:45,,457,47 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),13:45,03h.45m,17:30,,363,55 Seats Available
+bhopal,indore,Verma Travels,AC Sleeper (2 + 1),17:00,03h.45m,20:45,,"1,999",21 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),14:00,03h.45m,17:45,,457,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),00:30,03h.45m,04:15,,457,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),13:00,03h.45m,16:45,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),19:45,03h.45m,23:30,,362,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),12:45,03h.45m,16:30,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),12:30,03h.45m,16:15,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),07:45,03h.45m,11:30,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),18:30,03h.45m,22:15,,457,55 Seats Available
+bhopal,indore,Verma Travels,AC Sleeper (2 + 1),18:00,03h.45m,21:45,,"1,899",21 Seats Available
+bhopal,indore,Verma Travels,"2+2, Sleeper, NON-AC",05:50,04h.10m,10:00,,800,44 Seats Available
+bhopal,indore,Verma Travels,"2+2, Sleeper-Seater, NON-AC",01:30,05h,06:30,,600,45 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),17:15,03h.45m,21:00,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),16:30,03h.45m,20:15,,457,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),02:00,03h.45m,05:45,,457,49 Seats Available
+bhopal,indore,Verma Travels,AC Sleeper (2 + 1),16:05,04h.15m,20:20,,"1,999",40 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),09:30,03h.45m,13:15,,457,48 Seats Available
+bhopal,indore,Verma Travels,AC Sleeper (2 + 1),18:00,04h,22:00,,"1,400",26 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),22:30,03h.45m,02:15,,457,55 Seats Available
+bhopal,indore,Verma Travels,VOLVO 9600 AC Multiaxle Sleeper (2 + 1),14:45,04h.30m,19:15,,"1,999",41 Seats Available
+bhopal,indore,Verma Travels,VOLVO 9600 AC Multiaxle Sleeper (2 + 1),16:00,04h,20:00,,"2,199",42 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),16:45,03h.45m,20:30,,363,55 Seats Available
+bhopal,indore,Verma Travels,"2+2, Sleeper-Seater, NON-AC, Non-Video",02:00,04h,06:00,,600,57 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),15:00,03h.45m,18:45,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),11:30,03h.45m,15:15,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),12:15,03h.45m,16:00,,363,55 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),04:30,03h.45m,08:15,,363,55 Seats Available
+bhopal,indore,Verma Travels,"2+2, Sleeper, NON-AC",04:40,03h.30m,08:10,,600,36 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),05:00,03h.45m,08:45,,457,48 Seats Available
+bhopal,indore,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),23:30,03h.45m,03:15,,457,49 Seats Available
+bhopal,indore,Shivansh Travels,AC Sleeper (2 + 1),12:30,00h.30m,13:00,,3199,30 Seats Available
+bhopal,indore,Bhopal Travels,NON-AC Seater/Sleeper,17:15,03h.26m,20:41,,357,12 Seats Available
+bhopal,indore,Bhopal Travels,AC Sleeper,16:10,04h.40m,20:50,,"2,342",36 Seats Available
+bhopal,indore,Bhopal Travels,NON-AC Sleeper,19:50,04h.45m,00:35,,916,36 Seats Available
+bhopal,indore,SMT Travels,"2+2, Sleeper-Seater, NON-AC",02:45,03h.45m,06:30,,500,50 Seats Available
+bhopal,indore,Bhopal Travels,AC Sleeper,17:50,03h.35m,21:25,,"1,527",36 Seats Available
+bhopal,indore,Bhopal Travels,AC Sleeper,08:40,04h.20m,13:00,,"1,426",36 Seats Available
+bhopal,indore,Balaji Bus Service (AN),"2+1, Sleeper-Seater, NON-AC",00:45,04h.15m,05:00,,400,46 Seats Available
+bhopal,indore,Mishra Transport Company,AC Sleeper (2 + 1),02:15,04h.20m,06:35,,800,36 Seats Available
+bhopal,indore,Balaji Bus Service (AN),"2+1, Sleeper-Seater, NON-AC",02:30,03h,05:30,,450,45 Seats Available
+bhopal,indore,Mishra Transport Company,AC Sleeper (2 + 1),03:30,03h.15m,06:45,,900,36 Seats Available
+bhopal,indore,Jatashankar Travels,AC Sleeper (2 + 1),03:40,03h.20m,07:00,,400,33 Seats Available
+bhopal,indore,Maa Sharda Bus Service,AC Sleeper (2 + 1),03:30,03h.15m,06:45,,900,25 Seats Available
+bhopal,indore,Khushbu Travels MP,AC Sleeper (2 + 1),03:40,03h.40m,07:20,,"1,599",36 Seats Available
+bhopal,indore,Maa Sharda Bus Service,"2+1, Sleeper, NON-AC",03:00,03h.30m,06:30,,900,23 Seats Available
+bhopal,indore,Rahul Travels Seoni,AC Seater/Sleeper (2 + 1),04:00,03h.10m,07:10,,500,41 Seats Available
+bhopal,indore,Maa Vaishno Bus Service Rewa,AC Sleeper (2 + 1),04:15,04h,08:15,,"1,100",36 Seats Available
+bhopal,indore,Maa Vaishno Bus Service Rewa,AC Sleeper (2 + 1),05:45,04h,09:45,,400,22 Seats Available
+bhopal,indore,Maa Vaishno Bus Service Rewa,AC Seater/Sleeper (2 + 1),05:35,04h,09:35,,900,41 Seats Available
+bhopal,indore,Maa Vaishno Bus Service Rewa,AC Sleeper (2 + 1),05:15,04h,09:15,,"1,100",32 Seats Available
+bhopal,indore,Maa Vaishno Bus Service Rewa,AC Sleeper (2 + 1),06:10,04h,10:10,,"1,300",32 Seats Available
+bhopal,indore,Pegwar Travels,"2+1, Sleeper-Seater, NON-AC",23:00,06h,05:00,,350,34 Seats Available
+bhopal,ujjain,Ashok Bus Service,AC Seater/Sleeper (2 + 1),19:00,05h.30m,00:30,4.5,450,36 Seats Available
+bhopal,ujjain,Gajraj Travels,"2+1, Sleeper with Washroom, AC, Non-Video",03:45,03h,06:45,4.5,"1,500",33 Seats Available
+bhopal,ujjain,Shree Devnarayan Travels,NON-AC Seater/Sleeper (2 + 1),14:00,05h,19:00,4.5,"2,500",10 Seats Available
+bhopal,ujjain,Chouhan Tours and Travels,AC Seater (2 + 2),09:40,05h.40m,15:20,,255,15 Seats Available
+bhopal,ujjain,Vishvas Transport Services Private Limited,AC Sleeper (2 + 1),02:30,03h.50m,06:20,,599,20 Seats Available
+bhopal,ujjain,Chouhan Tours and Travels,NON-AC Seater (2 + 2),11:30,05h.30m,17:00,,255,18 Seats Available
+bhopal,ujjain,Raaj Rath Travels Co.,AC Seater/Sleeper (2 + 1),05:45,03h.01m,08:46,4.3,"1,801",34 Seats Available
+bhopal,ujjain,Ashok Bus Service,"2+1, Sleeper-Seater, NON-AC, Non-Video",17:20,06h.20m,23:40,4.5,630,37 Seats Available
+bhopal,ujjain,Chouhan Tours and Travels,NON-AC Seater (2 + 2),13:30,04h.10m,17:40,,255,20 Seats Available
+bhopal,ujjain,Ashok Travels Mandsaur,Bharat Benz AC Sleeper (2 + 1),19:45,05h.30m,01:15,4.1,500,23 Seats Available
+bhopal,ujjain,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,15:00,06h.30m,21:30,,857,23 Seats Available
+bhopal,ujjain,Ashok Travels Mandsaur,VE AC Seater,18:45,05h.10m,23:55,4.1,500,36 Seats Available
+bhopal,ujjain,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),08:15,03h.30m,11:45,4.4,305,18 Seats Available
+bhopal,ujjain,New Royal Travels,Bharat Benz AC Sleeper (2 + 1),04:50,03h.10m,08:00,4.4,1666,28 Seats Available
+bhopal,ujjain,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),15:15,03h.30m,18:45,4.4,305,20 Seats Available
+bhopal,ujjain,New Royal Travels,Bharat Benz AC Sleeper (2 + 1),05:30,03h.30m,09:00,4.4,1666,36 Seats Available
+bhopal,ujjain,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),12:30,03h.30m,16:00,4.4,305,19 Seats Available
+bhopal,ujjain,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),20:30,03h.30m,00:00,4.4,305,14 Seats Available
+bhopal,ujjain,Maa Baneshwari Travels,"2+2, Seater, NON-AC",06:50,04h.20m,11:10,,327,28 Seats Available
+bhopal,ujjain,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),06:45,03h.30m,10:15,4.4,305,16 Seats Available
+bhopal,ujjain,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),10:15,03h.30m,13:45,4.4,305,10 Seats Available
+bhopal,ujjain,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,04:15,04h.15m,08:30,,571,22 Seats Available
+bhopal,ujjain,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),18:30,03h.30m,22:00,4.4,305,15 Seats Available
+bhopal,ujjain,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,06:15,03h.21m,09:36,,"1,100",8 Seats Available
+bhopal,ujjain,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,06:30,03h.25m,09:55,,"1,048",24 Seats Available
+bhopal,ujjain,Chartered Speed Pvt Ltd,VOLVO AC Seater (2 + 2),08:00,03h.30m,11:30,4.1,457,45 Seats Available
+bhopal,ujjain,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),20:15,03h.15m,23:30,,457,45 Seats Available
+bhopal,ujjain,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),12:45,03h.15m,16:00,,457,45 Seats Available
+bhopal,ujjain,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),15:00,03h.15m,18:15,,363,53 Seats Available
+bhopal,ujjain,Chartered Bus - Sutra Sewa,AC Seater (2 + 2),06:30,04h.14m,10:44,,394,36 Seats Available
+bhopal,ujjain,Chartered Bus,VOLVO AC Seater (2 + 2),11:15,03h.15m,14:30,,457,45 Seats Available
+bhopal,ujjain,Chartered Speed Pvt Ltd,VOLVO AC Seater (2 + 2),16:00,03h.15m,19:15,4.1,457,45 Seats Available
+bhopal,ujjain,Chartered Bus - Sutra Sewa,AC Seater (2 + 2),17:15,03h.51m,21:06,,394,41 Seats Available
+bhopal,ujjain,Chartered Bus,VOLVO AC Seater (2 + 2),06:30,03h.30m,10:00,,363,53 Seats Available
+bhopal,ujjain,Shree Krishna Travels,NON-AC Sleeper (2 + 1),22:45,03h.55m,02:40,,950,16 Seats Available
+bhopal,varanasi,SANJAY TRAVELS (INDORE),Ashok Leyland AC Sleeper,21:30,14h.35m,12:05,4.2,"2,000",17 Seats Available
+bhopal,varanasi,Raaj Rath Travels Co.,AC Seater/Sleeper (2 + 1),07:30,13h.20m,20:50,4.3,"5,000",34 Seats Available
+bhopal,varanasi,Bhaiya Travels,AC Sleeper (2 + 1),21:00,13h,10:00,4.6,"2,000",34 Seats Available
+bhopal,varanasi,Bhaiya Travels,AC Sleeper (2 + 1),06:45,14h.05m,20:50,4.6,"8,500",36 Seats Available
+bhopal,varanasi,Raaj Rath Travels Co.,AC Seater/Sleeper (2 + 1),07:30,13h.20m,20:50,4.3,"5,000",48 Seats Available
+bhopal,varanasi,Raaj Rath Travels Co.,AC Seater/Sleeper (2 + 1),21:15,12h.45m,10:00,4.3,"1,801",34 Seats Available
+bhopal,varanasi,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,20:00,15h,11:00,,"1,600",15 Seats Available
+bhopal,varanasi,Sadguru Shivam Travels,"2+1, Sleeper, NON-AC",12:15,21h.30m,09:45,,2775,38 Seats Available
+bhopal,varanasi,Prasanna - Purple Bus,AC Sleeper (2 + 1),23:00,12h.30m,11:30,4.8,"2,000",11 Seats Available
+bhopal,varanasi,Sadguru Shivam Travels,"2+1, Sleeper, NON-AC",12:15,21h.15m,09:30,,2775,38 Seats Available
+bhopal,varanasi,Raj Ratan Tours & Travels,Bharat Benz AC Sleeper (2 + 1),21:15,13h.40m,10:55,4.5,"2,799",17 Seats Available
+bhopal,varanasi,Prasanna - Purple Bus,AC Sleeper (2 + 1),23:00,12h.30m,11:30,4.8,"2,000",10 Seats Available
+bhopal,varanasi,RAHUL TRAVELS,"2+2, Sleeper, NON-AC, Non-Video",21:30,14h,11:30,,"1,899",30 Seats Available
+bhopal,varanasi,RAHUL TRAVELS,Bharat Benz AC Sleeper (2 + 1),21:45,16h.15m,14:00,,"2,809",30 Seats Available
+bhopal,varanasi,Jai Bhawani Travels,"2+1, Non A-C Capella Seat-Sleeper, NON-AC, Non-Video",22:00,17h.10m,15:10,,"1,999",21 Seats Available
+bhopal,varanasi,Dhariwal Travels,AC Sleeper (2 + 1),21:15,15h.40m,12:55,,"3,000",11 Seats Available
+bhopal,varanasi,Ramashiv Travels,AC Seater/Sleeper (2 + 2),22:30,14h.25m,12:55,,"1,099",24 Seats Available
+bhopal,varanasi,Sanjeev Tour and Travels,AC Seater/Sleeper (2 + 1),20:45,14h.45m,11:30,,"5,000",1 Seats Available
+indore,bhopal,RSRTC,NON-AC Seater(2+3) - 182733,03:30,02h.30m,06:00,4.1,208,32 Seats Available
+indore,bhopal,SANJAY TRAVELS (INDORE),Ashok Leyland AC Sleeper,16:00,05h.30m,21:30,4.2,"2,000",29 Seats Available
+indore,bhopal,Guru Saheb Tour and Travels,"2+1, Sleeper, NON-AC",20:15,05h.30m,01:45,,700,5 Seats Available
+indore,bhopal,New LokSewa Travels,"2+1, Sleeper-Seater, NON-AC",20:45,04h.45m,01:30,4.6,600,19 Seats Available
+indore,bhopal,Chouhan Tours and Travels,NON-AC Seater (2 + 2),08:20,04h.50m,13:10,,255,28 Seats Available
+indore,bhopal,Chouhan Tours and Travels,NON-AC Seater (3 + 2),07:40,04h.40m,12:20,,255,24 Seats Available
+indore,bhopal,Barkoti Travels,"2+1, Sleeper-Seater, NON-AC",20:00,04h.30m,00:30,,600,17 Seats Available
+indore,bhopal,BETRWANTI TRAVELS,NON-AC Sleeper (2 + 1),15:00,04h.15m,19:15,,2299,34 Seats Available
+indore,bhopal,National Travels (Abd),AC Sleeper (2 + 1),05:00,03h.30m,08:30,,"1,300",34 Seats Available
+indore,bhopal,Raaj Rath Travels Co.,AC Seater/Sleeper (2 + 1),17:15,04h,21:15,4.3,"1,801",39 Seats Available
+indore,bhopal,Gajraj Travels,"2+1, Sleeper with Washroom, AC, Non-Video",15:00,04h.15m,19:15,4.5,"1,500",48 Seats Available
+indore,bhopal,Barkoti Travels,"2+1, Sleeper-Seater, NON-AC",21:00,04h.20m,01:20,,300,37 Seats Available
+indore,bhopal,Bhaiya Travels,AC Sleeper (2 + 1),16:45,04h.15m,21:00,4.6,"2,000",32 Seats Available
+indore,bhopal,Om Shanti Travels,AC Sleeper (2 + 1),21:30,04h,01:30,4.5,800,14 Seats Available
+indore,bhopal,Ashok Bus Service,AC Seater/Sleeper (2 + 1),04:15,03h,07:15,4.5,405,26 Seats Available
+indore,bhopal,BETRWANTI TRAVELS,AC Sleeper (2 + 1),17:00,04h.15m,21:15,,1350,27 Seats Available
+indore,bhopal,New LokSewa Travels,"2+2, Sleeper-Seater, NON-AC",19:00,05h.55m,00:55,4.6,600,15 Seats Available
+indore,bhopal,Vishvas Transport Services Private Limited,AC Sleeper (2 + 1),19:30,04h.28m,23:58,,499,27 Seats Available
+indore,bhopal,Bhaiya Travels,AC Sleeper (2 + 1),03:45,03h,06:45,4.6,"8,500",40 Seats Available
+indore,bhopal,New LokSewa Travels,Bharat Benz AC Sleeper (2 + 1),20:30,04h.30m,01:00,4.6,"1,299",30 Seats Available
+indore,bhopal,Chouhan Tours and Travels,AC Seater (2 + 2),07:20,04h.20m,11:40,,298,11 Seats Available
+indore,bhopal,Ashok Bus Service,"2+1, Sleeper-Seater, NON-AC, Non-Video",04:45,03h.30m,08:15,4.5,315,22 Seats Available
+indore,bhopal,New LokSewa Travels,AC Sleeper (2 + 1),20:15,05h.45m,02:00,4.6,"1,199",24 Seats Available
+indore,bhopal,B.R. Travels,Ashok Leyland AC Sleeper,04:40,03h.10m,07:50,4.5,"2,382",44 Seats Available
+indore,bhopal,Bhaiya Travels,Bharat Benz AC Sleeper (2 + 1),04:30,03h.10m,07:40,4.6,"2,200",27 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),19:30,03h.30m,23:00,4.4,290,44 Seats Available
+indore,bhopal,Ambay Travels Indore,"2+1, Sleeper, NON-AC",20:15,03h.44m,23:59,,700,29 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),09:00,03h.30m,12:30,4.4,420,44 Seats Available
+indore,bhopal,Jai Bhawani Travels,VE AC Sleeper (2 + 1),19:30,03h.30m,23:00,,"1,499",35 Seats Available
+indore,bhopal,Raj Ratan Tours & Travels,Bharat Benz AC Sleeper (2 + 1),16:45,04h.30m,21:15,4.5,"2,799",22 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),11:00,03h.30m,14:30,4.4,420,29 Seats Available
+indore,bhopal,Jai Bhawani Travels,VE AC Seater,20:30,03h.15m,23:45,,"1,088",36 Seats Available
+indore,bhopal,Jai Bhawani Travels,"2+1, Non A-C Capella Seat-Sleeper, NON-AC, Non-Video",18:30,03h.30m,22:00,,"1,333",12 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),20:15,03h.30m,23:45,4.4,290,44 Seats Available
+indore,bhopal,RAHUL TRAVELS,AC Sleeper (2 + 1),19:30,04h.30m,00:00,,"1,699",44 Seats Available
+indore,bhopal,Nandan Travels Seoni,AC Seater/Sleeper (2 + 1),21:30,03h.30m,01:00,4.1,510,45 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),12:15,03h.40m,15:55,4.4,290,26 Seats Available
+indore,bhopal,Ambay Travels Indore,"2+1, Sleeper-Seater, NON-AC",23:55,04h.45m,04:40,,480,18 Seats Available
+indore,bhopal,Intercity Travels (Indore),AC Sleeper (2 + 1),20:15,03h.30m,23:45,4.4,"1,000",45 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),01:15,03h.15m,04:30,4.4,290,40 Seats Available
+indore,bhopal,Sadguru Shivam Travels,"2+1, Sleeper, NON-AC",08:15,04h,12:15,,2257,44 Seats Available
+indore,bhopal,Raj Ratan Tours & Travels,VOLVO 9600 AC Multiaxle Sleeper (2 + 1),08:25,04h.15m,12:40,4.5,440,20 Seats Available
+indore,bhopal,Intercity Travels (Indore),Bharat Benz AC Sleeper (2 + 1),19:00,04h.20m,23:20,4.4,"1,300",38 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),15:30,03h.30m,19:00,4.4,420,44 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),20:30,03h.30m,00:00,4.4,290,43 Seats Available
+indore,bhopal,Jai Bhawani Travels,Bharat Benz AC Sleeper (2 + 1),21:25,02h.15m,23:40,,888,16 Seats Available
+indore,bhopal,Rai Bus Service,NON-AC Seater/Sleeper (2 + 1),19:50,04h.20m,00:10,4.4,450,16 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),16:00,03h.30m,19:30,4.4,420,45 Seats Available
+indore,bhopal,Raj Ratan Tours & Travels,VOLVO 9600 AC Multiaxle Sleeper (2 + 1),06:15,04h.10m,10:25,4.5,440,40 Seats Available
+indore,bhopal,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,16:00,04h,20:00,,300,41 Seats Available
+indore,bhopal,Ambay Travels Indore,Ashok Leyland AC Seater/Sleeper (2 + 1),19:00,04h.15m,23:15,,900,44 Seats Available
+indore,bhopal,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,19:00,05h.06m,00:06,,800,30 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),18:30,03h.30m,22:00,4.4,420,44 Seats Available
+indore,bhopal,Yadav Bus Services,2 X 2 (44) AC SEAT- AC,13:30,05h.30m,19:00,4.1,360,44 Seats Available
+indore,bhopal,Nandan Travels Seoni,"2+2, Sleeper-Seater, NON-AC",18:30,04h,22:30,4.1,510,42 Seats Available
+indore,bhopal,Hans Travels (I) Pvt Ltd.,VOLVO AC Multiaxle Sleeper,15:00,03h.30m,18:30,,400,30 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),23:00,03h.30m,02:30,4.4,290,33 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),14:00,03h.30m,17:30,4.4,420,44 Seats Available
+indore,bhopal,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,20:00,03h.10m,23:10,,400,45 Seats Available
+indore,bhopal,M R Travels,AC Sleeper (2 + 1),05:30,03h,08:30,4.1,"1,600",30 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),17:15,03h.30m,20:45,4.4,290,36 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),07:15,03h.40m,10:55,4.4,290,44 Seats Available
+indore,bhopal,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,06:30,08h,14:30,,"1,143",34 Seats Available
+indore,bhopal,Nandan Travels Seoni,"2+1, Executive Sleeper-Seater, NON-AC",20:25,03h.30m,23:55,4.1,510,30 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),10:30,03h.30m,14:00,4.4,420,20 Seats Available
+indore,bhopal,Prasanna - Purple Bus,AC Sleeper (2 + 1),17:00,06h,23:00,4.8,"2,000",45 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),13:00,03h.30m,16:30,4.4,420,37 Seats Available
+indore,bhopal,RAHUL TRAVELS,Bharat Benz AC Sleeper (2 + 1),17:00,04h.45m,21:45,,"2,809",41 Seats Available
+indore,bhopal,Ambay Travels Indore,AC Sleeper (2 + 1),21:50,03h.20m,01:10,,900,45 Seats Available
+indore,bhopal,Nandan Travels Seoni,AC Seater/Sleeper (2 + 1),19:45,03h.45m,23:30,4.1,510,42 Seats Available
+indore,bhopal,Ashok Travels Mandsaur,Bharat Benz AC Sleeper (2 + 1),04:00,03h.30m,07:30,4.1,900,33 Seats Available
+indore,bhopal,Ashok Travels Mandsaur,"2+1, Sleeper-Seater, NON-AC",02:00,05h,07:00,4.1,300,42 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),03:30,03h.45m,07:15,4.4,290,35 Seats Available
+indore,bhopal,Ambay Travels Indore,Ashok Leyland AC Seater/Sleeper (2 + 1),13:50,05h.55m,19:45,,900,35 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),11:30,03h.30m,15:00,4.4,420,26 Seats Available
+indore,bhopal,Maa Baneshwari Travels,"2+2, Seater, NON-AC",12:40,05h,17:40,,327,35 Seats Available
+indore,bhopal,Pawan Travels Balaghat,"2+2, Sleeper-Seater, NON-AC",17:00,04h,21:00,,322,35 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),20:00,03h.30m,23:30,4.4,290,35 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),17:30,03h.30m,21:00,4.4,420,42 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),10:00,03h.30m,13:30,4.4,420,42 Seats Available
+indore,bhopal,Rai Bus Service,NON-AC Seater/Sleeper (2 + 1),17:00,04h.15m,21:15,4.4,400,35 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),16:30,03h.30m,20:00,4.4,420,35 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),18:00,03h.30m,21:30,4.4,420,38 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),19:00,03h.30m,22:30,4.4,420,35 Seats Available
+indore,bhopal,Deep Travels,AC Sleeper (2 + 1),05:00,04h.15m,09:15,,"1,500",34 Seats Available
+indore,bhopal,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,17:00,04h,21:00,,286,38 Seats Available
+indore,bhopal,New Royal Travels (Raipur) - Citylink Travels,Bharat Benz AC Sleeper (2 + 1),18:00,04h.45m,22:45,4.4,1571,35 Seats Available
+indore,bhopal,Ambay Travels Indore,"1+2, Ashok leyland Sleeper-Seater, NON-AC",21:00,04h,01:00,,450,35 Seats Available
+indore,bhopal,Maa Baneshwari Travels,"2+1, Sleeper-Seater, NON-AC",21:35,03h.25m,01:00,,416,35 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),06:00,03h.30m,09:30,4.4,290,11 Seats Available
+indore,bhopal,Nandan Travels Seoni,"2+1, Executive Sleeper-Seater, NON-AC",16:45,04h.15m,21:00,4.1,510,35 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),23:55,03h.30m,03:25,4.4,290,35 Seats Available
+indore,bhopal,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,20:15,03h.40m,23:55,,400,35 Seats Available
+indore,bhopal,Kamla Bus,"2+1, Sleeper-Seater, NON-AC",19:30,04h,23:30,4.1,400,42 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),21:00,03h.30m,00:30,4.4,290,35 Seats Available
+indore,bhopal,Shrinath® Travel Agency Pvt. Ltd.,TATA AC Sleeper,04:10,02h,06:10,4.1,400,38 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),08:00,03h.20m,11:20,4.4,420,35 Seats Available
+indore,bhopal,H.K TRAVELS,NON-AC Sleeper (2 + 1),23:00,05h,04:00,4.1,700,40 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),14:30,03h.30m,18:00,4.4,420,40 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),09:30,03h.30m,13:00,4.4,420,35 Seats Available
+indore,bhopal,Veer Travels,AC Sleeper (2 + 1),06:00,04h.30m,10:30,4.1,"1,500",35 Seats Available
+indore,bhopal,Intercity Travels (Indore),AC Sleeper (2 + 1),18:30,05h.10m,23:40,4.4,"1,300",35 Seats Available
+indore,bhopal,Kamla Bus,"2+1, Sleeper-Seater, NON-AC",20:30,04h.30m,01:00,4.1,400,35 Seats Available
+indore,bhopal,Nandan Travels Seoni,AC Seater/Sleeper (2 + 2),19:10,03h.50m,23:00,4.1,510,35 Seats Available
+indore,bhopal,RAHUL TRAVELS,"2+2, Sleeper, NON-AC, Non-Video",17:00,04h.30m,21:30,,"1,899",38 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),07:00,03h.40m,10:40,4.4,420,35 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),08:30,03h.30m,12:00,4.4,420,35 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),13:30,03h.30m,17:00,4.4,420,35 Seats Available
+indore,bhopal,M R Travels,VOLVO AC Multiaxle Sleeper (2 + 1),05:00,04h,09:00,4.1,"2,500",35 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),22:00,03h.30m,01:30,4.4,290,35 Seats Available
+indore,bhopal,Intercity Travels (Indore),VOLVO AC Multiaxle Sleeper (2 + 1),18:00,03h.15m,21:15,4.4,"1,700",38 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),15:00,03h.30m,18:30,4.4,420,35 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),12:00,03h.30m,15:30,4.4,420,35 Seats Available
+indore,bhopal,Shrinath® Travel Agency Pvt. Ltd.,TATA AC Sleeper,05:55,03h.30m,09:25,4.1,400,35 Seats Available
+indore,bhopal,Royal Travels Raipur,Bharat Benz AC Sleeper (2 + 1),17:00,05h.50m,22:50,4.1,1571,35 Seats Available
+indore,bhopal,Hans Travels (I) Pvt Ltd.,Bharat Benz AC Seater,09:10,03h.30m,12:40,,300,35 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),07:30,03h.30m,11:00,4.4,290,35 Seats Available
+indore,bhopal,Hans Travels (I) Pvt Ltd.,VOLVO AC Multiaxle Sleeper,18:15,04h.25m,22:40,,300,35 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),12:30,03h.30m,16:00,4.4,420,38 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),06:30,03h.30m,10:00,4.4,290,35 Seats Available
+indore,bhopal,Yadav Bus Services,NON-AC Seater (2 + 2),18:45,06h.30m,01:15,4.1,315,35 Seats Available
+indore,bhopal,Humsafar Travels,AC Sleeper (2 + 1),06:30,04h.30m,11:00,4.1,450,35 Seats Available
+indore,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),17:00,03h.30m,20:30,4.4,420,35 Seats Available
+indore,bhopal,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,20:45,03h.50m,00:35,4.1,381,35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),17:30,03h.45m,21:15,4.5,457,35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),13:00,03h.45m,16:45,4.5,363,35 Seats Available
+indore,bhopal,Verma Travels,AC Sleeper (2 + 1),06:00,03h,09:00,4.6,300,35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),09:15,03h.45m,13:00,4.6,363,38 Seats Available
+indore,bhopal,Verma Travels,"2+2, Sleeper-Seater, NON-AC",22:30,04h.10m,02:40,4.6,350,42 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),21:30,03h.20m,00:50,4.3,394,40 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),11:45,03h.45m,15:30,4.5,363,35 Seats Available
+indore,bhopal,Verma Travels,"2+2, Sleeper, NON-AC",19:30,04h,23:30,4.5,350,35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),17:00,03h.45m,20:45,,363,35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),15:00,03h.45m,18:45,,457,35 Seats Available
+indore,bhopal,Verma Travels,AC Sleeper (2 + 1),04:45,02h.15m,07:00,4.3,"2,296",32 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),14:45,03h.45m,18:30,4.5,363,35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),11:00,03h.45m,14:45,4.3,363,35 Seats Available
+indore,bhopal,Verma Travels,VOLVO 9600 AC Multiaxle Sleeper (2 + 1),08:00,03h.55m,11:55,4.5,"2,799",40 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),16:15,03h.45m,20:00,4.5,363,35 Seats Available
+indore,bhopal,Verma Travels,Bharat Benz AC Sleeper (2 + 1),04:30,04h.50m,09:20,4.3,"2,199",35 Seats Available
+indore,bhopal,Verma Travels,"2+2, Sleeper-Seater, NON-AC",21:40,04h.35m,02:15,4.5,700,38 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),10:15,03h.45m,14:00,,363,35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),18:30,03h.45m,22:15,4.3,457,35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),11:30,03h.45m,15:15,4.5,457,35 Seats Available
+indore,bhopal,Verma Travels,"2+1, Sleeper, NON-AC",05:00,05h.20m,10:20,4.5,"1,000",42 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),16:30,03h.45m,20:15,4.5,363,35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),08:00,03h.20m,11:20,,457,24 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),12:30,03h.45m,16:15,4.8,457,35 Seats Available
+indore,bhopal,Verma Travels,"2+2, Sleeper, NON-AC",16:40,04h.30m,21:10,4.4,450,35 Seats Available
+indore,bhopal,Verma Travels,VOLVO 9600 AC Multiaxle Sleeper (2 + 1),07:30,04h,11:30,4.1,"2,799",35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),22:30,03h.20m,01:50,,394,38 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),07:00,03h.20m,10:20,,457,35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),06:00,03h.20m,09:20,4.4,457,42 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),11:15,03h.45m,15:00,,363,35 Seats Available
+indore,bhopal,Verma Travels,Bharat Benz AC Sleeper (2 + 1),04:30,04h,08:30,,"1,800",35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),12:00,03h.45m,15:45,4.4,363,35 Seats Available
+indore,bhopal,Dhariwal Travels,AC Sleeper (2 + 1),17:00,04h.15m,21:15,4.1,"1,800",35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),20:00,03h.45m,23:45,4.4,457,38 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),23:30,03h.20m,02:50,,394,35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),16:00,03h.45m,19:45,,457,35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),09:30,03h.45m,13:15,4.8,457,35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),19:00,03h.45m,22:45,,363,35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),10:00,03h.45m,13:45,4.4,457,35 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),01:30,03h,04:30,,394,18 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),14:30,03h.45m,18:15,4.4,457,36 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),20:30,03h.45m,00:15,,457,33 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),07:30,03h.20m,10:50,,363,25 Seats Available
+indore,bhopal,Verma Travels,"2+2, Sleeper, NON-AC",18:30,04h,22:30,4.4,450,22 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),19:30,03h.45m,23:15,4.1,363,1 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),12:15,03h.45m,16:00,4.4,363,1 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),13:30,03h.45m,17:15,,457,32 Seats Available
+indore,bhopal,Verma Travels,AC Sleeper (2 + 1),16:30,05h,21:30,,850,29 Seats Available
+indore,bhopal,Verma Travels,AC Sleeper (2 + 1),07:05,02h.15m,09:20,,"2,999",5 Seats Available
+indore,bhopal,Verma Travels,"2+2, Sleeper-Seater, NON-AC",18:45,05h.10m,23:55,4.4,200,19 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),15:45,03h.45m,19:30,4.4,363,28 Seats Available
+indore,bhopal,Verma Travels,AC Sleeper (2 + 1),05:35,03h.05m,08:40,4.4,800,24 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),06:30,03h.20m,09:50,,363,17 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),00:30,03h,03:30,4.1,394,34 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),08:30,03h.45m,12:15,4.4,363,34 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),05:00,03h.20m,08:20,4.4,457,39 Seats Available
+indore,bhopal,Verma Travels,VOLVO AC Multiaxle Sleeper (2 + 1),04:30,02h.30m,07:00,,400,48 Seats Available
+indore,bhopal,Dhariwal Travels,AC Sleeper (2 + 1),19:45,03h.14m,22:59,,"5,000",37 Seats Available
+indore,bhopal,Verma Travels,"2+2, Sleeper-Seater, NON-AC, Non-Video",20:30,03h.29m,23:59,,600,32 Seats Available
+indore,bhopal,Dhariwal Travels,AC Sleeper (2 + 2),19:00,04h.25m,23:25,4.4,"4,000",14 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),18:00,03h.45m,21:45,,457,26 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),14:00,03h.45m,17:45,4.8,457,27 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),05:30,03h.20m,08:50,,457,15 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),15:30,03h.45m,19:15,,363,27 Seats Available
+indore,bhopal,Verma Travels,AC Sleeper (2 + 1),06:00,03h.30m,09:30,,"2,499",40 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),09:00,03h.45m,12:45,4.4,363,30 Seats Available
+indore,bhopal,Chartered Speed Limited MP,VOLVO 9600 AC Seater (2 + 2),10:30,03h.45m,14:15,,457,11 Seats Available
+indore,bhopal,Shivansh Travels,AC Sleeper (2 + 1),15:00,04h,19:00,,2900,22 Seats Available
+indore,bhopal,Om Sai Ram Travels,NON-AC Seater/Sleeper (2 + 1),19:30,04h.15m,23:45,,350,24 Seats Available
+indore,bhopal,Om Sai Ram Travels,AC Seater/Sleeper (2 + 1),21:00,04h.45m,01:45,4.4,300,44 Seats Available
+indore,bhopal,Om Sai Ram Travels,NON-AC Sleeper (2 + 1),15:55,05h.10m,21:05,4.4,350,27 Seats Available
+indore,bhopal,Om Sai Ram Travels,NON-AC Seater/Sleeper (2 + 1),23:30,03h.30m,03:00,4.4,350,44 Seats Available
+indore,bhopal,Om Sai Ram Travels,NON-AC Seater/Sleeper (2 + 1),22:55,04h.40m,03:35,4.1,350,29 Seats Available
+indore,bhopal,New Golden Travels (Chhaterpur),"2+1, Sleeper with Washroom, AC, Individual LED",20:00,03h.55m,23:55,,899,44 Seats Available
+indore,bhopal,Mahakal (Orchha Transport),"2+1, Sleeper-Seater, NON-AC",18:00,05h,23:00,,300,35 Seats Available
+indore,bhopal,Shree Yadav Indore,NON-AC Sleeper,20:45,03h.50m,00:35,4.1,800,22 Seats Available
+indore,bhopal,Mahakal (Orchha Transport),"2+1, Sleeper-Seater, NON-AC",19:30,04h.25m,23:55,4.4,500,29 Seats Available
+indore,bhopal,Bhopal Travels,AC Sleeper,18:00,03h.40m,21:40,4.3,"5,090",36 Seats Available
+indore,bhopal,SMT Travels,"2+2, Sleeper-Seater, NON-AC",17:30,05h,22:30,,400,12 Seats Available
+indore,bhopal,New Golden Travels (Chhaterpur),"2+1, Sleeper, NON-AC",14:50,05h.30m,20:20,4.4,"1,500",44 Seats Available
+indore,bhopal,Neelkamal Travels (Miglani),AC Sleeper,21:30,04h,01:30,4.4,662,44 Seats Available
+indore,bhopal,Mahakal (Orchha Transport),"2+1, Sleeper-Seater, NON-AC",19:00,04h.20m,23:20,4.4,450,45 Seats Available
+indore,bhopal,Mishra Transport Company,AC Sleeper (2 + 1),17:45,04h.45m,22:30,4.2,800,26 Seats Available
+indore,bhopal,Ramashiv Travels,AC Seater/Sleeper (2 + 2),18:00,04h.30m,22:30,4.1,599,18 Seats Available
+indore,bhopal,Khushbu Travels MP,AC Sleeper (2 + 1),18:30,03h.50m,22:20,4.5,"1,599",45 Seats Available
+indore,bhopal,Jatashankar Travels,AC Sleeper (2 + 1),19:00,04h,23:00,4.5,500,40 Seats Available
+indore,bhopal,Pegwar Travels,"2+1, Sleeper-Seater, NON-AC",19:00,04h.55m,23:55,4.6,350,44 Seats Available
+indore,bhopal,Balaji Bus Service (AN),"2+1, Sleeper-Seater, NON-AC",19:30,05h.45m,01:15,4.6,400,20 Seats Available
+indore,bhopal,Maa Vaishno Bus Service Rewa,AC Sleeper (2 + 1),19:20,03h.30m,22:50,4.6,"1,100",38 Seats Available
+indore,bhopal,Maa Bijasan Travels (Bhatia),"2+1, Sleeper-Seater, NON-AC",19:00,05h.15m,00:15,4.3,500,44 Seats Available
+indore,bhopal,Mishra Transport Company,AC Sleeper (2 + 1),20:45,04h.15m,01:00,4.5,700,43 Seats Available
+indore,bhopal,Rahul Travels Seoni,AC Seater/Sleeper (2 + 1),20:00,03h.50m,23:50,4.5,500,16 Seats Available
+indore,bhopal,Maa Vaishno Bus Service Rewa,AC Sleeper (2 + 1),20:00,03h.30m,23:30,,400,16 Seats Available
+indore,bhopal,Maa Sharda Bus Service,"2+1, Sleeper, NON-AC",21:00,03h.45m,00:45,,900,45 Seats Available
+indore,bhopal,Maa Sharda Bus Service,AC Sleeper (2 + 1),21:30,03h.30m,01:00,4.3,900,40 Seats Available
+indore,bhopal,Amardeep Travels,AC Sleeper (2 + 1),21:50,04h.10m,02:00,4.5,500,41 Seats Available
+indore,bhopal,Amardeep Travels,AC Seater/Sleeper (2 + 1),22:00,04h.50m,02:50,4.3,500,44 Seats Available
+indore,bhopal,Amardeep Travels,"2+1, Sleeper-Seater, NON-AC",22:10,04h.30m,02:40,4.5,500,30 Seats Available
+indore,bhopal,Amardeep Travels,"2+1, Sleeper-Seater, NON-AC",22:30,04h.50m,03:20,4.5,500,44 Seats Available
+indore,ujjain,RSRTC,NON-AC Seater/Sleeper(2+1) - 191379,21:00,01h,22:00,4.3,13851,32 Seats Available
+indore,ujjain,Raj Kalpana Travels Pvt.Ltd,AC Sleeper (2 + 1),16:20,02h,18:20,4.5,15250,29 Seats Available
+indore,ujjain,Raj Kalpana Travels Pvt.Ltd,Bharat Benz AC Seater/Sleeper (2 + 1),17:30,01h.50m,19:20,,15250,5 Seats Available
+indore,ujjain,Jai Shree Ganesh Travels,Ashok Leyland NON-AC Sleeper,20:09,01h.10m,21:19,4.3,644,19 Seats Available
+indore,ujjain,Jai Shree Ganesh Travels,Ashok Leyland AC Seater/Sleeper,18:00,02h,20:00,4.5,644,28 Seats Available
+indore,ujjain,Jai Shree Ganesh Travels,Ashok Leyland AC Seater/Sleeper,19:05,02h.45m,21:50,4.5,644,24 Seats Available
+indore,ujjain,Raaj Rath Travels Co.,AC Seater/Sleeper (2 + 1),04:00,03h,07:00,4.5,539,17 Seats Available
+indore,ujjain,Samreen Travels,AC Sleeper (2 + 1),16:30,01h.40m,18:10,,1272,34 Seats Available
+indore,ujjain,Raj Kalpana Travels Pvt.Ltd,Bharat Benz AC Seater/Sleeper (2 + 1),18:30,01h.50m,20:20,4.8,15250,34 Seats Available
+indore,ujjain,BETRWANTI TRAVELS,NON-AC Sleeper (2 + 1),15:00,01h.30m,16:30,4.4,612,39 Seats Available
+indore,ujjain,S M Moga Travels,AC Seater/Sleeper (2 + 1),19:30,02h,21:30,4.1,190,48 Seats Available
+indore,ujjain,Rajasthan Travels,"2+1, Air Suspension, NON-AC",20:30,02h.05m,22:35,,39,37 Seats Available
+indore,ujjain,Gajraj Travels,"1+2, Sleeper-Seater, NON-AC, Non-Video",17:30,02h,19:30,,3873,32 Seats Available
+indore,ujjain,Raaj Rath Travels Co.,AC Seater/Sleeper (2 + 1),05:30,03h,08:30,4.4,539,14 Seats Available
+indore,ujjain,Ashok Bus Service,"2+1, Sleeper-Seater, NON-AC, Non-Video",15:00,02h.30m,17:30,,814,26 Seats Available
+indore,ujjain,Samreen Travels,AC Sleeper (2 + 1),22:00,01h.30m,23:30,,1272,27 Seats Available
+indore,ujjain,Raaj Rath Travels Co.,AC Seater/Sleeper (2 + 1),03:30,05h.45m,09:15,4.4,539,15 Seats Available
+indore,ujjain,Sanjay Travels,AC Sleeper (2 + 1),06:30,01h.45m,08:15,4.1,3762,27 Seats Available
+indore,ujjain,DEV HIGH SPEED TRAVELS AND CARGO,"1+2, Sleeper-Seater, NON-AC, Non-Video",18:00,02h,20:00,4.4,290,40 Seats Available
+indore,ujjain,Bluecity Bus,AC Sleeper (2 + 1),16:30,02h,18:30,,705,30 Seats Available
+indore,ujjain,Ashok Bus Service,AC Seater/Sleeper (2 + 1),23:15,01h.15m,00:30,,814,11 Seats Available
+indore,ujjain,Gajraj Travels,"2+1, Sleeper with Washroom, AC, Non-Video",15:00,01h.15m,16:15,4.8,3873,22 Seats Available
+indore,ujjain,Gajraj Travels,AC Sleeper (2 + 1),16:15,01h.45m,18:00,,3873,24 Seats Available
+indore,ujjain,S M Moga Travels,AC Seater/Sleeper (2 + 1),17:30,02h.20m,19:50,4.4,190,44 Seats Available
+indore,ujjain,Prasanna - Purple Bus,AC Sleeper (2 + 1),20:15,02h,22:15,,4227,27 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),19:40,01h.50m,21:30,4.4,974,44 Seats Available
+indore,ujjain,JAIN TRAVELS REGD - MULTANI SONA,Eicher AC Sleeper,19:30,01h.30m,21:00,,2797,29 Seats Available
+indore,ujjain,Lavi Travels,TATA NON-AC Seater,17:30,01h.20m,18:50,,204,44 Seats Available
+indore,ujjain,Lavi Travels,TATA NON-AC Seater,06:29,01h.10m,07:39,4.4,204,35 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),06:40,01h.50m,08:30,4.1,974,22 Seats Available
+indore,ujjain,Lavi Travels,TATA NON-AC Seater,10:00,01h.30m,11:30,4.4,204,29 Seats Available
+indore,ujjain,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,18:45,01h.45m,20:30,,9461,36 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),17:45,01h.50m,19:35,,974,12 Seats Available
+indore,ujjain,M R Travels,NON-AC Seater/Sleeper (2 + 1),17:30,01h.30m,19:00,,7036,44 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),18:40,01h.50m,20:30,4.4,974,44 Seats Available
+indore,ujjain,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,20:00,01h.30m,21:30,4.4,9461,45 Seats Available
+indore,ujjain,Lavi Travels,TATA NON-AC Seater,18:30,01h.30m,20:00,4.4,204,26 Seats Available
+indore,ujjain,Prasanna - Purple Bus,AC Sleeper (2 + 1),17:00,02h,19:00,,4227,18 Seats Available
+indore,ujjain,Hans Travels (I) Pvt Ltd.,Bharat Benz AC Seater,09:30,02h,11:30,4.1,9461,45 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),18:10,01h.50m,20:00,4.4,974,40 Seats Available
+indore,ujjain,Shekhar Travels,AC Seater/Sleeper (2 + 1),18:15,01h.50m,20:05,4.4,862,44 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),10:05,01h.30m,11:35,,974,20 Seats Available
+indore,ujjain,Hans Travels (I) Pvt Ltd.,Bharat Benz AC Sleeper,18:15,01h.30m,19:45,,9461,38 Seats Available
+indore,ujjain,Lavi Travels,TATA NON-AC Seater,19:41,01h.20m,21:01,,204,44 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),07:10,01h.50m,09:00,4.4,974,43 Seats Available
+indore,ujjain,Humsafar Travels,AC Sleeper (2 + 1),23:15,00h.44m,23:59,,5224,16 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),14:25,01h.50m,16:15,4.8,974,16 Seats Available
+indore,ujjain,Lavi Travels,TATA NON-AC Seater,16:25,01h.15m,17:40,,204,45 Seats Available
+indore,ujjain,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,20:30,01h,21:30,,9461,40 Seats Available
+indore,ujjain,Kothari Travels,NON-AC Seater/Sleeper (2 + 1),16:30,02h,18:30,,140,41 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),12:30,01h.30m,14:00,4.4,974,44 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),09:40,01h.50m,11:30,,974,30 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),07:45,01h.50m,09:35,,974,44 Seats Available
+indore,ujjain,Lavi Travels,TATA NON-AC Seater,07:29,01h.10m,08:39,,204,44 Seats Available
+indore,ujjain,Ganesh Travels (GT),AC Sleeper (2 + 1),19:00,02h.15m,21:15,4.4,590,42 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),20:20,01h.50m,22:10,4.4,974,30 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),15:10,01h.30m,16:40,4.4,974,33 Seats Available
+indore,ujjain,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,19:30,01h.10m,20:40,4.1,9461,44 Seats Available
+indore,ujjain,Lavi Travels,TATA NON-AC Seater,17:50,01h.15m,19:05,,204,45 Seats Available
+indore,ujjain,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,06:18,02h,08:18,,9461,30 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),11:50,01h.50m,13:40,4.1,974,36 Seats Available
+indore,ujjain,Lavi Travels,TATA NON-AC Seater,13:00,01h.30m,14:30,4.4,204,44 Seats Available
+indore,ujjain,Prasanna - Purple Bus,AC Sleeper (2 + 1),16:00,01h.16m,17:16,4.3,4227,34 Seats Available
+indore,ujjain,Lavi Travels,TATA NON-AC Seater,11:53,01h.17m,13:10,,204,30 Seats Available
+indore,ujjain,Lavi Travels,TATA NON-AC Seater,16:20,01h.15m,17:35,4.4,204,20 Seats Available
+indore,ujjain,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,06:22,02h,08:22,4.4,9461,45 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),17:05,01h.50m,18:55,4.4,974,37 Seats Available
+indore,ujjain,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,13:00,01h.15m,14:15,4.2,9461,41 Seats Available
+indore,ujjain,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,06:30,03h.30m,10:00,,9461,45 Seats Available
+indore,ujjain,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,16:30,01h.15m,17:45,,9461,42 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),08:20,01h.50m,10:10,4.4,974,33 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),13:50,01h.50m,15:40,4.4,974,42 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),15:55,01h.50m,17:45,4.4,974,35 Seats Available
+indore,ujjain,Ganesh Travels (GT),AC Sleeper (2 + 1),20:00,01h.15m,21:15,4.1,590,35 Seats Available
+indore,ujjain,Lavi Travels,TATA NON-AC Seater,14:01,01h.30m,15:31,,204,26 Seats Available
+indore,ujjain,Lavi Travels,TATA NON-AC Seater,08:58,01h.10m,10:08,,204,35 Seats Available
+indore,ujjain,M R Travels,NON-AC Seater/Sleeper (2 + 1),21:20,01h.20m,22:40,4.1,7036,35 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),09:05,01h.50m,10:55,4.4,974,35 Seats Available
+indore,ujjain,VKV Travels,AC Sleeper (2 + 1),05:30,01h.30m,07:00,4.3,5556,42 Seats Available
+indore,ujjain,Lavi Travels,TATA NON-AC Seater,15:20,01h,16:20,,204,42 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),13:10,01h.30m,14:40,4.4,974,35 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),11:00,01h.30m,12:30,4.4,974,35 Seats Available
+indore,ujjain,Royal Travels,AC Seater (2 + 2),16:30,01h.50m,18:20,4.4,974,38 Seats Available
+indore,ujjain,BR Travels,AC Sleeper,20:30,01h.45m,22:15,4.2,1697,35 Seats Available
+indore,ujjain,Dhariwal Travels,AC Sleeper (2 + 1),18:00,01h.45m,19:45,4.1,905,34 Seats Available
+indore,ujjain,Dhariwal Travels,AC Sleeper (2 + 1),21:40,01h.50m,23:30,4.5,905,38 Seats Available
+indore,ujjain,Gujarat Travels,TATA AC Sleeper,07:15,01h.30m,08:45,4.5,4036,35 Seats Available
+indore,ujjain,M R Travels,Bharat Benz AC Seater (2 + 1),17:00,02h.15m,19:15,4.6,1451,35 Seats Available
+indore,ujjain,Royal Travels Sukhmani,"2+2, Seater, NON-AC",19:10,01h.45m,20:55,4.6,644,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",22:00,01h.59m,23:59,4.6,644,11 Seats Available
+indore,ujjain,Royal Travels Sukhmani,"2+2, Seater, NON-AC",12:00,01h.45m,13:45,4.3,644,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",09:45,02h,11:45,4.5,539,35 Seats Available
+indore,ujjain,Jai Baba Bal Hanuman Travels,"2+2, Seater, NON-AC",21:15,01h.25m,22:40,4.5,1272,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",11:59,02h.01m,14:00,,15250,42 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",17:45,02h,19:45,,612,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",18:00,02h,20:00,4.3,190,38 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",10:00,02h,12:00,4.5,39,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",06:05,02h,08:05,4.3,3873,40 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",16:30,02h,18:30,4.5,539,40 Seats Available
+indore,ujjain,Royal Travels Sukhmani,"2+2, Seater, NON-AC",19:50,01h.45m,21:35,4.5,814,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",07:45,02h,09:45,4.3,1272,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",18:30,02h,20:30,4.5,539,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",06:30,02h,08:30,,3762,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",10:45,02h,12:45,4.3,290,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",17:00,02h,19:00,4.5,705,38 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",07:00,02h,09:00,4.5,814,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",10:30,02h,12:30,4.5,3873,35 Seats Available
+indore,ujjain,Royal Travels Sukhmani,"2+2, Seater, NON-AC",15:30,01h.45m,17:15,,3873,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",07:05,02h,09:05,4.8,190,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",11:00,02h,13:00,4.4,4227,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",08:15,02h,10:15,4.1,974,38 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",06:45,02h,08:45,,2797,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",18:45,02h,20:45,,204,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",16:00,02h,18:00,4.4,204,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",13:15,02h,15:15,,974,35 Seats Available
+indore,ujjain,Jai Baba Bal Hanuman Travels,AC Seater (2 + 2),14:05,01h.25m,15:30,,204,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",15:00,02h,17:00,4.4,9461,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",13:30,02h,15:30,4.1,974,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",20:45,02h,22:45,4.4,7036,38 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",20:15,02h,22:15,,974,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",06:15,02h,08:15,,9461,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",07:30,02h,09:30,4.8,204,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",15:30,02h,17:30,,4227,35 Seats Available
+indore,ujjain,Royal Travels Sukhmani,"2+2, Seater, NON-AC",10:50,01h.45m,12:35,4.4,9461,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",21:00,02h,23:00,,974,35 Seats Available
+indore,ujjain,Royal Travels Sukhmani,"2+2, Seater, NON-AC",22:10,01h.45m,23:55,4.4,862,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",21:30,02h,23:30,,974,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",12:45,02h,14:45,,9461,38 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",09:30,02h,11:30,4.4,204,42 Seats Available
+indore,ujjain,Jai Baba Bal Hanuman Travels,AC Seater (2 + 2),19:45,01h.25m,21:10,4.1,974,40 Seats Available
+indore,ujjain,Royal Travels Sukhmani,"2+2, Seater, NON-AC",11:55,01h.45m,13:40,4.4,5224,35 Seats Available
+indore,ujjain,Royal Travels Sukhmani,"2+2, Seater, NON-AC",10:55,01h.45m,12:40,,974,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",21:15,02h,23:15,,644,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",08:15,02h,10:15,,644,35 Seats Available
+indore,ujjain,Royal Travels Sukhmani,"2+2, Seater, NON-AC",19:30,01h.45m,21:15,4.4,644,32 Seats Available
+indore,ujjain,Radhey Krishna Travels,2 X 1 AC SLEEPER (36) - 2- AC,16:45,02h,18:45,4.4,539,35 Seats Available
+indore,ujjain,Shri Sai Nath Travels,TATA NON-AC Sleeper,22:15,01h,23:15,4.4,1272,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",21:00,02h,23:00,,15250,40 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",20:30,02h,22:30,4.1,612,35 Seats Available
+indore,ujjain,Jai Baba Bal Hanuman Travels,"2+2, Seater, NON-AC",14:35,01h.25m,16:00,4.4,190,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",06:35,02h,08:35,4.4,39,38 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",11:30,02h,13:30,,3873,35 Seats Available
+indore,ujjain,Jai Baba Bal Hanuman Travels,"2+2, Seater, NON-AC",11:35,01h.55m,13:30,,539,35 Seats Available
+indore,ujjain,Pallavi MadhyaPradesh Parivahan,"2+2, Seater, NON-AC",23:10,01h.20m,00:30,,814,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",19:00,02h,21:00,4.4,1272,42 Seats Available
+indore,ujjain,Jai Baba Bal Hanuman Travels,AC Seater (2 + 2),21:05,01h.25m,22:30,,539,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",18:15,02h,20:15,4.8,3762,24 Seats Available
+indore,ujjain,Royal Travels Sukhmani,"2+2, Seater, NON-AC",18:15,01h.45m,20:00,,290,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",15:45,02h,17:45,,705,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",06:45,02h,08:45,,814,35 Seats Available
+indore,ujjain,Uday Travels,Bharat Benz AC Sleeper,19:30,01h.45m,21:15,4.4,3873,38 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",07:00,02h,09:00,,3873,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",07:15,02h,09:15,,190,42 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",14:30,02h,16:30,,4227,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",20:00,02h,22:00,4.4,974,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",06:45,02h,08:45,4.4,2797,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",14:00,02h,16:00,4.4,204,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",20:00,02h,22:00,4.1,204,38 Seats Available
+indore,ujjain,Jai Baba Bal Hanuman Travels,"2+2, Seater, NON-AC",17:35,01h.30m,19:05,,974,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",21:45,02h,23:45,,204,35 Seats Available
+indore,ujjain,Thar Bus Service,Bharat Benz AC Sleeper,22:30,01h.20m,23:50,4.1,9461,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",18:30,02h,20:30,4.4,974,35 Seats Available
+indore,ujjain,Rao Sahab Travels,VE AC Seater/Sleeper (2 + 1),20:00,02h,22:00,4.3,7036,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",19:15,02h,21:15,,974,18 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",13:00,02h,15:00,4.4,9461,36 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",20:30,02h,22:30,4.4,204,33 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",06:10,02h,08:10,4.4,4227,25 Seats Available
+indore,ujjain,Royal Travels Sukhmani,"2+2, Seater, NON-AC",12:15,01h.40m,13:55,4.2,9461,22 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",15:15,02h,17:15,,974,1 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",13:45,02h,15:45,4.1,862,1 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",17:30,02h,19:30,4.5,974,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",14:45,02h,16:45,4.5,9461,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",12:30,02h,14:30,4.6,204,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",06:00,02h,08:00,4.6,974,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",21:30,02h,23:30,4.6,5224,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",12:15,02h,14:15,4.3,974,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",11:15,02h,13:15,4.5,644,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",16:15,02h,18:15,4.5,644,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",08:30,02h,10:30,,644,38 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",19:30,02h,21:30,,539,42 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",09:15,02h,11:15,4.3,1272,40 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",19:45,02h,21:45,4.5,15250,35 Seats Available
+indore,ujjain,Jai Baba Bal Hanuman Travels,"2+2, Seater, NON-AC",21:35,01h.25m,23:00,4.3,612,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",11:00,02h,13:00,4.5,190,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",17:15,02h,19:15,4.5,39,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",10:15,02h,12:15,4.3,3873,32 Seats Available
+indore,ujjain,Maa Gayatri Travels,AC Sleeper (2 + 1),23:30,01h.15m,00:45,4.5,539,35 Seats Available
+indore,ujjain,Royal Travels Sukhmani,"2+2, Seater, NON-AC",13:30,01h.45m,15:15,,814,35 Seats Available
+indore,ujjain,Shivansh Travels,AC Sleeper (2 + 1),15:00,02h,17:00,4.3,1272,40 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",14:15,02h,16:15,4.5,539,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",09:05,02h,11:05,4.5,3762,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",09:00,02h,11:00,4.5,290,38 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",08:35,02h,10:35,,705,35 Seats Available
+indore,ujjain,Jai Baba Bal Hanuman Travels,AC Seater (2 + 2),11:20,01h.25m,12:45,4.8,814,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",08:00,02h,10:00,4.4,3873,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",08:45,02h,10:45,4.1,3873,42 Seats Available
+indore,ujjain,Royal Travels Sukhmani,"2+2, Seater, NON-AC",09:55,02h,11:55,,190,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",08:05,02h,10:05,,4227,24 Seats Available
+indore,ujjain,Pallavi MadhyaPradesh Parivahan,AC Seater (2 + 2),20:10,01h.30m,21:40,4.4,974,35 Seats Available
+indore,ujjain,Jai Baba Bal Hanuman Travels,"2+2, Seater, NON-AC",11:30,01h.25m,12:55,,2797,35 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",16:45,02h,18:45,,204,35 Seats Available
+indore,ujjain,Radhey Krishna Travels,NON-AC Sleeper (2 + 1),18:00,02h,20:00,4.4,204,38 Seats Available
+indore,ujjain,Baneshwari Travels,"2+2, Seater, NON-AC",11:45,02h,13:45,4.1,974,35 Seats Available
+indore,ujjain,Shreenath Yadav Indore,NON-AC Seater,08:01,01h.10m,09:11,4.4,204,42 Seats Available
+indore,ujjain,Shree Yadav Indore,NON-AC Seater,17:35,01h.15m,18:50,,9461,35 Seats Available
+indore,ujjain,Shree Yadav Indore,NON-AC Seater,05:21,01h,06:21,,974,35 Seats Available
+indore,ujjain,Shree Yadav Indore,NON-AC Seater,14:41,01h.15m,15:56,4.8,7036,35 Seats Available
+indore,ujjain,Shreenath Yadav Indore,NON-AC Seater,06:04,01h,07:04,,974,35 Seats Available
+indore,ujjain,(Janta Bus),NON-AC Seater,17:15,01h,18:15,4.4,9461,38 Seats Available
+indore,ujjain,Shree Yadav Indore,NON-AC Seater,16:01,01h.10m,17:11,,204,35 Seats Available
+indore,ujjain,Shree Yadav Indore,NON-AC Seater,12:45,01h.10m,13:55,4.4,4227,35 Seats Available
+indore,ujjain,Shreenath Yadav Indore,NON-AC Seater,11:00,00h.55m,11:55,,9461,35 Seats Available
+indore,ujjain,Rathore Travels (Madho),NON-AC Seater/Sleeper,17:00,01h.15m,18:15,,974,35 Seats Available
+indore,ujjain,Mahadev Express Travels And Cargo,Bharat Benz AC Seater/Sleeper (2 + 2),16:20,01h.55m,18:15,4.4,862,35 Seats Available
+indore,ujjain,Barsana Travels,AC Sleeper (2 + 1),18:00,02h.40m,20:40,4.1,974,18 Seats Available
+indore,ujjain,Shree Balaji Travels SBG,AC Sleeper (2 + 1),21:15,02h.15m,23:30,4.4,9461,36 Seats Available
+ujjain,ayodhya,BETRWANTI TRAVELS,NON-AC Sleeper (2 + 1),14:30,16h,06:30,,204,11 Seats Available
+ujjain,ayodhya,BETRWANTI TRAVELS,NON-AC Sleeper (2 + 1),16:30,17h.30m,10:00,,974,12 Seats Available
+ujjain,ayodhya,BETRWANTI TRAVELS,AC Sleeper (2 + 1),15:15,16h,07:15,,5224,11 Seats Available
+ujjain,ayodhya,BETRWANTI TRAVELS,AC Sleeper (2 + 1),15:15,15h.45m,07:00,4.4,974,10 Seats Available
+ujjain,ayodhya,BETRWANTI TRAVELS,NON-AC Sleeper (2 + 1),16:30,16h.30m,09:00,4.4,2299,15 Seats Available
+ujjain,ayodhya,BETRWANTI TRAVELS,NON-AC Sleeper (2 + 1),14:30,15h.30m,06:00,4.4,2299,13 Seats Available
+ujjain,ayodhya,Raj Ratan Tours & Travels,Bharat Benz AC Sleeper (2 + 1),15:30,18h,09:30,,"2,799",18 Seats Available
+ujjain,ayodhya,GAJRAJ BUS SERVICE,Ashok Leyland NON-AC Seater/Sleeper,19:15,15h.45m,11:00,4.1,1045,37 Seats Available
+ujjain,ayodhya,Raj Ratan Tours & Travels,Bharat Benz AC Sleeper (2 + 1),15:30,17h.45m,09:15,4.4,"2,799",10 Seats Available
+ujjain,ayodhya,Kamla Bus,AC Sleeper (2 + 1),16:15,16h.45m,09:00,4.4,"2,899",16 Seats Available
+ujjain,ayodhya,GAJRAJ BUS SERVICE,Ashok Leyland NON-AC Seater/Sleeper,19:15,15h.35m,10:50,,1045,37 Seats Available
+ujjain,ayodhya,Prasanna - Purple Bus,AC Sleeper (2 + 1),17:16,17h.44m,11:00,,"2,000",10 Seats Available
+ujjain,ayodhya,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,14:15,16h.22m,06:37,,"2,381",23 Seats Available
+ujjain,ayodhya,Shivansh Travels,AC Sleeper (2 + 1),17:00,16h.30m,09:30,4.4,2299,30 Seats Available
+ujjain,ayodhya,Shivansh Travels,AC Sleeper (2 + 1),17:00,16h,09:00,,2299,30 Seats Available
+ujjain,ayodhya,Shivansh Travels,AC Sleeper (2 + 1),20:00,16h.30m,12:30,4.8,2750,30 Seats Available
+ujjain,ayodhya,Shivansh Travels,AC Sleeper (2 + 1),20:00,16h,12:00,,2750,30 Seats Available
+ujjain,bhopal,Ashok Bus Service,"2+1, Sleeper-Seater, NON-AC, Non-Video",03:30,04h.45m,08:15,,329,32 Seats Available
+ujjain,bhopal,SRV Vishwas Travels,AC Sleeper (2 + 1),19:40,04h.40m,00:20,,935,18 Seats Available
+ujjain,bhopal,BETRWANTI TRAVELS,NON-AC Sleeper (2 + 1),16:30,02h.45m,19:15,4.4,2299,25 Seats Available
+ujjain,bhopal,Raaj Rath Travels Co.,AC Seater/Sleeper (2 + 1),18:25,02h.50m,21:15,,"2,001",17 Seats Available
+ujjain,bhopal,Vishvas Transport Services Private Limited,AC Sleeper (2 + 1),19:50,04h.08m,23:58,,659,30 Seats Available
+ujjain,bhopal,New LokSewa Travels,AC Sleeper (2 + 1),22:35,03h.25m,02:00,,"1,399",19 Seats Available
+ujjain,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),21:15,03h.20m,00:35,4.4,305,37 Seats Available
+ujjain,bhopal,New Royal Travels (Raipur) - Citylink Travels,Bharat Benz AC Sleeper (2 + 1),16:00,06h.45m,22:45,4.4,1571,27 Seats Available
+ujjain,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),09:15,03h.20m,12:35,4.4,305,25 Seats Available
+ujjain,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),18:30,03h.20m,21:50,4.1,305,41 Seats Available
+ujjain,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),17:00,03h.20m,20:20,,305,30 Seats Available
+ujjain,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),14:15,03h.20m,17:35,,422,36 Seats Available
+ujjain,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),06:45,03h.20m,10:05,4.1,305,33 Seats Available
+ujjain,bhopal,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,18:00,05h.55m,23:55,4.4,"1,000",20 Seats Available
+ujjain,bhopal,NueGo (Partnered by Verma Travels),AC Seater Electric (2 + 2),12:30,03h.20m,15:50,4.3,305,39 Seats Available
+ujjain,bhopal,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,20:30,03h.36m,00:06,,"1,100",17 Seats Available
+ujjain,bhopal,Maa Baneshwari Travels,"2+2, Seater, NON-AC",12:40,05h,17:40,4.4,327,28 Seats Available
+ujjain,bhopal,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,18:00,06h.35m,00:35,4.4,667,23 Seats Available
+ujjain,bhopal,Ashok Travels Mandsaur,VE AC Seater,01:00,04h.45m,05:45,4.4,"2,200",12 Seats Available
+ujjain,bhopal,Royal Travels Raipur,Bharat Benz AC Sleeper (2 + 1),19:00,03h.50m,22:50,4.2,1571,23 Seats Available
+ujjain,bhopal,Chartered Bus - Sutra Sewa,AC Seater (2 + 2),21:11,04h.09m,01:20,,394,31 Seats Available
+ujjain,bhopal,Chartered Bus,VOLVO AC Seater (2 + 2),15:00,03h.15m,18:15,,457,38 Seats Available
+ujjain,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),06:30,03h.15m,09:45,,457,35 Seats Available
+ujjain,bhopal,Chartered Speed Pvt Ltd,VOLVO AC Seater (2 + 2),16:00,03h.15m,19:15,4.1,457,43 Seats Available
+ujjain,bhopal,Chartered Bus - Sutra Sewa,AC Seater (2 + 2),10:25,04h.44m,15:09,,394,24 Seats Available
+ujjain,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),08:00,03h.15m,11:15,,457,42 Seats Available
+ujjain,bhopal,Chartered Speed Limited MP,VOLVO AC Seater (2 + 2),19:30,03h.15m,22:45,,363,49 Seats Available
+ujjain,bhopal,Chartered Speed Pvt Ltd,VOLVO AC Seater (2 + 2),12:00,03h.15m,15:15,4.1,457,45 Seats Available
+ujjain,bhopal,Chartered Bus,VOLVO AC Seater (2 + 2),10:30,03h.15m,13:45,,363,47 Seats Available
+ujjain,bhopal,Shree Krishna Travels,NON-AC Sleeper (2 + 1),22:45,04h,02:45,,1150,17 Seats Available
+ujjain,bhopal,Shree Yadav Indore,NON-AC Sleeper,18:45,05h.50m,00:35,,800,48 Seats Available
+ujjain,bhopal,Ramashiv Travels,AC Seater/Sleeper (2 + 2),19:15,03h.15m,22:30,,"1,599",22 Seats Available
+ujjain,bhopal,Ashok Bus Service,AC Seater/Sleeper (2 + 1),03:15,04h,07:15,4.5,517,1 Seats Available
+ujjain,indore ,RSRTC,NON-AC Seater/Sleeper(2+1) - 191378,04:30,01h,05:30,4.1,133,32 Seats Available
+ujjain,indore ,Raj Kalpana Travels Pvt.Ltd,Bharat Benz AC Seater/Sleeper (2 + 1),08:40,01h.20m,10:00,4.5,"1,200",29 Seats Available
+ujjain,indore ,Raj Kalpana Travels Pvt.Ltd,AC Sleeper (2 + 1),06:45,01h.30m,08:15,4.5,900,5 Seats Available
+ujjain,indore ,Jai Shree Ganesh Travels,Ashok Leyland AC Seater/Sleeper,07:30,01h.13m,08:43,4.6,799,19 Seats Available
+ujjain,indore ,Jai Shree Ganesh Travels,Ashok Leyland AC Seater/Sleeper,08:10,01h.05m,09:15,4.6,999,28 Seats Available
+ujjain,indore ,Pooja Yaduvanshi Travels,NON-AC Sleeper (2 + 1),04:45,00h.45m,05:30,4.5,600,24 Seats Available
+ujjain,indore ,S M Moga Travels,AC Seater/Sleeper (2 + 1),06:30,01h,07:30,,760,17 Seats Available
+ujjain,indore ,Raaj Rath Travels Co.,AC Seater/Sleeper (2 + 1),18:20,00h.40m,19:00,4.3,"5,000",34 Seats Available
+ujjain,indore ,Raaj Rath Travels Co.,AC Seater/Sleeper (2 + 1),19:20,01h,20:20,4.3,"5,000",34 Seats Available
+ujjain,indore ,Gajraj Travels,"1+2, Sleeper-Seater, NON-AC, Non-Video",20:00,02h.15m,22:15,4.5,270,39 Seats Available
+ujjain,indore ,Raaj Rath Travels Co.,AC Seater/Sleeper (2 + 1),17:15,01h.55m,19:10,4.3,"5,000",48 Seats Available
+ujjain,indore ,DEV HIGH SPEED TRAVELS AND CARGO,"1+2, Sleeper-Seater, NON-AC, Non-Video",05:45,02h.45m,08:30,,"1,000",37 Seats Available
+ujjain,indore ,Aradhana Travels,AC Sleeper (2 + 1),18:00,01h.25m,19:25,4.6,"1,200",32 Seats Available
+ujjain,indore ,Bluecity Bus,AC Sleeper (2 + 1),07:00,01h.30m,08:30,4.3,1350,14 Seats Available
+ujjain,indore ,Raj Kalpana Travels Pvt.Ltd,AC Sleeper (2 + 1),09:30,01h,10:30,4.5,"1,500",26 Seats Available
+ujjain,indore ,Gajraj Travels,"2+1, Sleeper with Washroom, AC, Non-Video",20:30,01h.30m,22:00,4.5,1100,27 Seats Available
+ujjain,indore ,Raaj Rath Travels Co.,AC Seater/Sleeper (2 + 1),08:46,01h.09m,09:55,4.3,701,15 Seats Available
+ujjain,indore ,T Power Tour and Travels,VOLVO 9600 AC Multiaxle Sleeper (2 + 1),08:00,00h.45m,08:45,4.3,500,27 Seats Available
+ujjain,indore ,Gajraj Travels,"1+2, Sleeper-Seater, NON-AC, Non-Video",08:15,01h,09:15,4.5,675,40 Seats Available
+ujjain,indore ,Yash Travels,AC Sleeper (2 + 1),20:30,01h.45m,22:15,,"2,500",30 Seats Available
+ujjain,indore ,Gajraj Travels,AC Sleeper (2 + 1),07:00,01h.20m,08:20,4.5,1250,11 Seats Available
+ujjain,indore ,Gajraj Travels,"1+2, Sleeper-Seater, NON-AC, Non-Video",02:00,02h,04:00,4.5,270,22 Seats Available
+ujjain,indore ,Samreen Travels,AC Sleeper (2 + 1),09:30,01h.25m,10:55,4.5,"1,200",24 Seats Available
+ujjain,indore ,RS Yadav Smart Bus,VE AC Seater/Sleeper (2 + 1),10:30,01h.30m,12:00,4.6,"5,000",44 Seats Available
+ujjain,indore ,Sanjay Travels,AC Sleeper (2 + 1),19:00,02h.30m,21:30,4.5,"1,200",27 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),12:10,01h.50m,14:00,4.4,110,44 Seats Available
+ujjain,indore ,SHATABDI BUS EXPRESS PRIVATE LIMITED,Bharat Benz AC Sleeper,08:30,01h,09:30,4.4,1350,29 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),15:10,01h.50m,17:00,4.4,110,44 Seats Available
+ujjain,indore ,Raj Ratan Tours & Travels,Bharat Benz AC Sleeper (2 + 1),18:45,02h.30m,21:15,4.5,"1,003",35 Seats Available
+ujjain,indore ,Ganesh Travels (GT),AC Sleeper (2 + 1),06:30,02h,08:30,4.1,599,22 Seats Available
+ujjain,indore ,Saini Travels Pvt. Ltd.,Ashok Leyland AC Sleeper,19:00,02h.30m,21:30,4.5,"1,000",29 Seats Available
+ujjain,indore ,Dhariwal Travels Pvt. Ltd.,NON-AC Sleeper (2 + 1),17:40,03h,20:40,4.1,750,36 Seats Available
+ujjain,indore ,Ashok Travels Mandsaur,VE AC Seater,01:00,01h,02:00,4.1,"2,200",12 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),13:20,01h.50m,15:10,4.4,110,44 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),10:20,01h.50m,12:10,4.4,110,44 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),14:35,01h.50m,16:25,4.4,110,45 Seats Available
+ujjain,indore ,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,06:43,01h.47m,08:30,,476,26 Seats Available
+ujjain,indore ,Humsafar Travels,AC Sleeper (2 + 1),04:00,01h,05:00,4.1,"2,050",18 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),17:45,01h.30m,19:15,4.4,110,45 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),08:30,01h.50m,10:20,4.4,110,40 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),14:05,01h.50m,15:55,4.4,110,44 Seats Available
+ujjain,indore ,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,19:30,02h.30m,22:00,,200,20 Seats Available
+ujjain,indore ,M R Travels,2 X 1 (40) SEAT 8 SLP 32 (40) NEW- AC,19:30,02h.45m,22:15,4.1,"1,500",38 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),20:30,01h.30m,22:00,4.4,110,44 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),11:40,01h.50m,13:30,4.4,110,43 Seats Available
+ujjain,indore ,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,19:30,01h.45m,21:15,,190,16 Seats Available
+ujjain,indore ,Prasanna - Purple Bus,AC Sleeper (2 + 1),17:00,02h,19:00,4.8,"1,800",16 Seats Available
+ujjain,indore ,Hans Travels (I) Pvt Ltd.,Bharat Benz AC Seater,18:00,02h,20:00,,100,45 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),15:45,01h.50m,17:35,4.4,110,40 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),18:30,01h.30m,20:00,4.4,110,41 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),09:10,01h.30m,10:40,4.4,110,44 Seats Available
+ujjain,indore ,Panjab Travels,NON-AC Sleeper (2 + 1),19:45,02h,21:45,4.2,"1,220",30 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),16:30,01h.30m,18:00,4.4,110,44 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),07:30,01h.50m,09:20,4.4,110,44 Seats Available
+ujjain,indore ,Royal Travels,TATA AC Seater (2 + 2),08:00,01h.50m,09:50,4.4,110,42 Seats Available
+ujjain,indore ,Prasanna - Purple Bus,AC Sleeper (2 + 1),17:15,01h.30m,18:45,4.8,"1,920",30 Seats Available
+ujjain,indore ,VKV Travels,AC Sleeper (2 + 1),17:00,01h.30m,18:30,4.3,1441,33 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),19:40,01h.30m,21:10,4.4,110,44 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),19:10,01h.30m,20:40,4.4,110,45 Seats Available
+ujjain,indore ,Dhariwal Travels Pvt. Ltd.,NON-AC Sleeper (2 + 1),17:40,03h.30m,21:10,4.1,800,30 Seats Available
+ujjain,indore ,Raj Ratan Tours & Travels,Bharat Benz AC Sleeper (2 + 1),18:45,03h,21:45,4.5,"1,199",36 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),16:55,01h.30m,18:25,4.4,110,44 Seats Available
+ujjain,indore ,Kabra Express Logistics Pvt. Ltd.,Ashok Leyland AC Sleeper,20:45,01h.50m,22:35,4.2,"1,500",34 Seats Available
+ujjain,indore ,Dhariwal Travels Pvt. Ltd.,NON-AC Sleeper (2 + 1),17:10,03h.55m,21:05,4.1,650,30 Seats Available
+ujjain,indore ,BR Travels,AC Sleeper,06:30,01h.30m,08:00,4.2,"1,200",20 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),12:45,01h.30m,14:15,4.4,110,45 Seats Available
+ujjain,indore ,Multani Sona Travels,"2+1, Sleeper, NON-AC",19:40,02h.05m,21:45,4.1,799,37 Seats Available
+ujjain,indore ,M R Travels,NON-AC Seater/Sleeper (2 + 1),06:15,01h.30m,07:45,4.1,999,41 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),09:40,01h.30m,11:10,4.4,110,45 Seats Available
+ujjain,indore ,Royal Travels,AC Seater (2 + 2),11:05,01h.50m,12:55,4.4,110,42 Seats Available
+ujjain,indore ,Dhariwal Travels,AC Sleeper (2 + 1),17:50,02h.35m,20:25,,"1,600",33 Seats Available
+ujjain,indore ,Jai Baba Bal Hanuman Travels,"2+2, Seater, NON-AC",15:55,01h.35m,17:30,,110,42 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",16:00,02h,18:00,,"1,500",35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",14:15,02h,16:15,,650,35 Seats Available
+ujjain,indore ,Maa Gayatri Travels,AC Sleeper (2 + 1),21:15,01h.45m,23:00,,"1,200",26 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",12:30,02h,14:30,,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",06:30,02h,08:30,,799,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",08:00,02h,10:00,4.4,999,35 Seats Available
+ujjain,indore ,Royal Travels Sukhmani,"2+2, Seater, NON-AC",14:00,02h.10m,16:10,4.4,110,42 Seats Available
+ujjain,indore ,Royal Travels Sukhmani,"2+2, Seater, NON-AC",18:00,02h.05m,20:05,4.4,110,42 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",14:30,02h,16:30,4.2,"1,600",35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",19:45,02h,21:45,4.4,110,35 Seats Available
+ujjain,indore ,Royal Travels Sukhmani,"2+2, Seater, NON-AC",18:05,01h.25m,19:30,4.4,799,38 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",10:45,02h,12:45,4.4,999,35 Seats Available
+ujjain,indore ,Thar Bus Service,Bharat Benz AC Sleeper,06:00,01h.20m,07:20,4.8,110,34 Seats Available
+ujjain,indore ,Royal Travels Sukhmani,"2+2, Seater, NON-AC",13:30,01h.25m,14:55,4.3,110,38 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",19:00,02h,21:00,4.4,"1,600",35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",08:30,02h,10:30,4.4,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",11:45,02h,13:45,4.1,"1,500",35 Seats Available
+ujjain,indore ,Jai Shankar Travels,NON-AC Seater/Sleeper (2 + 1),07:00,00h.30m,07:30,4.5,650,11 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",09:00,02h,11:00,4.4,"1,200",35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",13:00,02h,15:00,4.2,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",17:30,02h,19:30,4.1,799,35 Seats Available
+ujjain,indore ,Jai Baba Bal Hanuman Travels,"2+2, Seater, NON-AC",10:45,01h.40m,12:25,4.2,999,42 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",16:30,02h,18:30,4.4,110,35 Seats Available
+ujjain,indore ,Royal Travels Sukhmani,"2+2, Seater, NON-AC",10:30,01h.25m,11:55,4.1,110,38 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",16:15,02h,18:15,4.1,"1,600",35 Seats Available
+ujjain,indore ,Jai Baba Bal Hanuman Travels,AC Seater (2 + 2),16:20,01h.40m,18:00,4.4,110,40 Seats Available
+ujjain,indore ,Jai Baba Bal Hanuman Travels,AC Seater (2 + 2),08:50,01h.40m,10:30,4.4,799,40 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",07:45,02h,09:45,,999,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",13:15,02h,15:15,,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",09:45,02h,11:45,,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",21:15,02h,23:15,,"1,600",35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",15:30,02h,17:30,,110,35 Seats Available
+ujjain,indore ,Royal Travels Sukhmani,"2+2, Seater, NON-AC",09:15,01h.25m,10:40,,"1,500",38 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",14:45,02h,16:45,,650,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",20:15,02h,22:15,,"1,200",35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",15:15,02h,17:15,,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",10:30,02h.30m,13:00,4.4,799,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",16:30,02h,18:30,4.4,999,35 Seats Available
+ujjain,indore ,Royal Travels Sukhmani,"2+2, Seater, NON-AC",06:50,01h.25m,08:15,4.4,110,38 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",10:00,02h,12:00,4.2,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",12:00,02h,14:00,4.4,"1,600",35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",08:15,02h,10:15,4.4,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",06:45,02h,08:45,4.4,799,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",17:15,02h,19:15,4.8,999,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",11:00,02h,13:00,4.3,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",12:15,02h,14:15,4.4,110,35 Seats Available
+ujjain,indore ,Royal Travels Sukhmani,"2+2, Seater, NON-AC",14:30,01h.30m,16:00,4.4,"1,600",38 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",09:15,02h,11:15,4.1,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",07:30,02h,09:30,4.5,"1,500",35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",08:45,02h,10:45,4.4,650,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",08:15,02h.15m,10:30,4.2,"1,200",35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",19:15,02h,21:15,4.1,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",11:15,02h,13:15,4.2,799,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",15:00,02h,17:00,4.4,999,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",17:45,02h,19:45,4.1,110,35 Seats Available
+ujjain,indore ,Royal Travels Sukhmani,"2+2, Seater, NON-AC",08:20,01h.25m,09:45,4.1,110,38 Seats Available
+ujjain,indore ,Jai Baba Bal Hanuman Travels,"2+2, Seater, NON-AC",09:20,01h.40m,11:00,4.4,"1,600",42 Seats Available
+ujjain,indore ,Jai Baba Bal Hanuman Travels,AC Seater (2 + 2),16:40,01h.45m,18:25,4.4,110,40 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",18:15,02h,20:15,,799,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",16:45,02h,18:45,,999,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",20:30,02h,22:30,,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",21:00,02h,23:00,,110,35 Seats Available
+ujjain,indore ,Jai Baba Bal Hanuman Travels,"2+2, Seater, NON-AC",08:55,01h.40m,10:35,,"1,600",32 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",15:45,02h,17:45,,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",06:15,02h,08:15,,"1,500",35 Seats Available
+ujjain,indore ,Jai Baba Bal Hanuman Travels,AC Seater (2 + 2),10:40,01h.40m,12:20,,650,40 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",18:00,02h,20:00,,"1,200",35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",06:00,02h,08:00,,110,35 Seats Available
+ujjain,indore ,Royal Travels Sukhmani,"2+2, Seater, NON-AC",20:20,01h.25m,21:45,,799,38 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",20:00,02h,22:00,,999,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",09:30,02h,11:30,,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",11:30,02h,13:30,4.4,110,35 Seats Available
+ujjain,indore ,Jai Baba Bal Hanuman Travels,"2+2, Seater, NON-AC",15:50,01h.40m,17:30,4.4,"1,600",42 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",18:45,02h,20:45,4.4,110,35 Seats Available
+ujjain,indore ,Rao Sahab Travels,VE AC Seater/Sleeper (2 + 1),13:00,00h.30m,13:30,4.2,799,24 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",17:00,02h,19:00,4.4,999,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",07:00,02h,09:00,4.4,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",21:30,02h,23:30,4.4,110,35 Seats Available
+ujjain,indore ,Royal Travels Sukhmani,"2+2, Seater, NON-AC",15:30,01h.25m,16:55,4.8,"1,600",38 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",12:45,02h,14:45,4.3,110,35 Seats Available
+ujjain,indore ,Jai Baba Bal Hanuman Travels,"2+2, Seater, NON-AC",19:35,01h.35m,21:10,4.4,"1,500",42 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",20:45,02h,22:45,4.4,650,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",10:15,02h,12:15,4.1,"1,200",35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",18:30,02h,20:30,4.5,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",19:30,02h,21:30,4.4,799,35 Seats Available
+ujjain,indore ,Royal Travels Sukhmani,"2+2, Seater, NON-AC",17:05,01h.25m,18:30,4.2,999,38 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",13:30,02h,15:30,4.1,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",13:45,02h,15:45,4.2,110,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",07:15,02h,09:15,4.4,"1,600",35 Seats Available
+ujjain,indore ,Pallavi MadhyaPradesh Parivahan,"2+2, Seater, NON-AC",11:30,02h.50m,14:20,4.1,737,35 Seats Available
+ujjain,indore ,Baneshwari Travels,"2+2, Seater, NON-AC",14:00,02h,16:00,4.1,"2,000",35 Seats Available
+ujjain,indore ,Jaishree Travels,NON-AC Sleeper,03:35,01h.30m,05:05,4.4,737,18 Seats Available
+ujjain,indore ,Shree Yadav Indore,NON-AC Sleeper,16:50,01h.15m,18:05,4.4,"2,000",36 Seats Available
+ujjain,indore ,Rajlaxmi Travel Agency,AC Sleeper,04:36,01h.26m,06:02,,762,33 Seats Available
+ujjain,indore ,Shree Balaji Travels SBG,AC Sleeper (2 + 1),07:15,02h,09:15,,699,25 Seats Available
+ujjain,indore ,Barsana Travels,AC Sleeper (2 + 1),08:45,01h.45m,10:30,,"1,350",22 Seats Available
+ujjain,indore ,Ashok Bus Service,AC Seater/Sleeper (2 + 1),03:15,01h,04:15,4.5,423,1 Seats Available
+ujjain,indore ,Hans Travels (I) Pvt Ltd.,Ashok Leyland NON-AC Sleeper,08:06,01h.40m,09:46,,763,1 Seats Available
+varanasi,bhopal,SANJAY TRAVELS (INDORE),Ashok Leyland AC Sleeper,15:30,15h.20m,06:50,4.2,"1,600",17 Seats Available
+varanasi,bhopal,Bhaiya Travels,AC Sleeper (2 + 1),17:00,12h.30m,05:30,4.6,"2,000",34 Seats Available
+varanasi,bhopal,Raaj Rath Travels Co.,AC Seater/Sleeper (2 + 1),17:15,12h.30m,05:45,4.3,"1,801",34 Seats Available
+varanasi,bhopal,Bhaiya Travels,AC Sleeper (2 + 1),13:00,14h,03:00,4.6,"8,500",36 Seats Available
+varanasi,bhopal,RT RAHUL TRAVELS,Bharat Benz AC Sleeper (2 + 1),16:00,16h.28m,08:28,,"3,010",48 Seats Available
+varanasi,bhopal,Raj Ratan Tours & Travels,Bharat Benz AC Sleeper (2 + 1),17:15,13h.30m,06:45,4.5,"1,599",34 Seats Available
+varanasi,bhopal,Prasanna - Purple Bus,AC Sleeper (2 + 1),18:00,16h,10:00,4.8,"1,499",15 Seats Available
+varanasi,bhopal,RAHUL TRAVELS,"2+2, Sleeper, NON-AC, Non-Video",17:00,16h.15m,09:15,,900,38 Seats Available
+varanasi,bhopal,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,15:30,16h,07:30,,"1,200",11 Seats Available
+varanasi,bhopal,Prasanna - Purple Bus,AC Sleeper (2 + 1),18:00,16h,10:00,4.8,"1,499",38 Seats Available
+varanasi,bhopal,Dhariwal Travels,AC Sleeper (2 + 1),16:30,15h.30m,08:00,,"1,200",17 Seats Available
+varanasi,bhopal,Ramashiv Travels,AC Sleeper,17:00,15h.30m,08:30,,"5,000",10 Seats Available
+varanasi,indore,SANJAY TRAVELS (INDORE),Ashok Leyland AC Sleeper,15:30,18h.40m,10:10,4.2,"1,600",17 Seats Available
+varanasi,indore,Raaj Rath Travels Co.,AC Seater/Sleeper (2 + 1),17:15,16h.40m,09:55,4.3,"1,301",34 Seats Available
+varanasi,indore,Bhaiya Travels,AC Sleeper (2 + 1),13:00,16h,05:00,4.6,"8,500",34 Seats Available
+varanasi,indore,Bhaiya Travels,AC Sleeper (2 + 1),17:00,17h,10:00,4.6,"2,000",36 Seats Available
+varanasi,indore,Prasanna - Purple Bus,AC Sleeper (2 + 1),18:00,19h.30m,13:30,4.8,"1,499",48 Seats Available
+varanasi,indore,Prasanna - Purple Bus,AC Sleeper (2 + 1),18:00,19h.30m,13:30,4.8,"1,499",34 Seats Available
+varanasi,indore,Raj Ratan Tours & Travels,Bharat Benz AC Sleeper (2 + 1),17:15,17h.45m,11:00,4.5,"1,699",15 Seats Available
+varanasi,indore,RAHUL TRAVELS,"2+2, Sleeper, NON-AC, Non-Video",17:00,19h.10m,12:10,,"1,400",38 Seats Available
+varanasi,indore,RT RAHUL TRAVELS,Bharat Benz AC Sleeper (2 + 1),16:00,20h.18m,12:18,,"3,010",11 Seats Available
+varanasi,indore,Hans Travels (I) Pvt Ltd.,Ashok Leyland AC Sleeper,15:30,19h.30m,11:00,,"1,400",38 Seats Available
+varanasi,indore,Dhariwal Travels,AC Sleeper (2 + 1),16:30,18h.55m,11:25,,"1,600",17 Seats Available
+varanasi,indore,Ramashiv Travels,AC Sleeper,17:00,18h.55m,11:55,,"5,000",10 Seats Available

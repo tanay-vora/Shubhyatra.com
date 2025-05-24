@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Details - Shubh Yatra</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background:url(assets/TOUR.png) no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }       
+        .container { max-width: 900px; margin: 20px auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); flex-grow: 1; }
+        .place-image { width: 100%; height: 300px; object-fit: cover; border-radius: 5px; }
+        .details { text-align: left; margin-top: 20px; }
+        .map-container { margin-top: 20px; }
+        .ticket-info { background: #f8f8f8; padding: 15px; border-radius: 5px; margin-top: 20px; text-align: left; }
+        .back-button { display: inline-block; margin-top: 20px; padding: 10px 15px; background: #262424; color: white; text-decoration: none; border-radius: 5px; }
+        .back-button:hover { background: #EFDFBB; color: #262424; }
+        
+        /* Navbar */
+        .navbar { display: flex; justify-content: space-between; align-items: center; background: #262424; padding:10px; }
+        .navbar a { color: #EFDFBB; text-decoration: none; font-size: 18px; padding: 10px 15px; }
+        .navbar a:hover { background: #d8894c; border-radius: 5px; }
+        .logo { font-size: 24px; font-weight: bold; }
+        
+        /* Footer */
+        .footer { background: #262424; color: white; text-align: center; padding: 20px; margin-top: auto; }
+        .footer a { color: #EFDFBB; text-decoration: none; margin: 0 10px; }
+        .footer a:hover { color: #d8894c; }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <a href="new.html" class="logo">Shubh Yatra</a>
+    <div>
+        <a href="#about">About</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#login">Login</a>
+    </div>
+</div>
+
+<div class="container">
+    <h1 id="placeName">Loading...</h1>
+    <img id="placeImage" class="place-image" src="" alt="Place Image">
+    <div class="details">
+        <p id="placeDescription">Fetching details...</p>
+    </div>
+    <div class="map-container">
+        <h3>Location:</h3>
+        <iframe id="placeMap" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="ticket-info" id="ticketInfo">
+        <h3>Ticket Information:</h3>
+        <p id="ticketDetails">No ticket details available.</p>
+    </div>
+    <a href="index.html" class="back-button">Back to Search</a>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <p>&copy; 2024 Shubh Yatra. All rights reserved.</p>
+    <p>
+        <a href="#about">About Us</a> | 
+        <a href="#contact">Contact</a> | 
+        <a href="#privacy">Privacy Policy</a>
+    </p>
+    <p>Follow us on: 
+        <a href="#facebook">Facebook</a> | 
+        <a href="#instagram">Instagram</a> | 
+        <a href="#twitter">Twitter</a>
+    </p>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const params = new URLSearchParams(window.location.search);
+        const placeName = params.get("place");
+
+        const placesData = {
+            "Taj Mahal": {
+                description: "The Taj Mahal is an iconic mausoleum in India, known for its stunning architecture.",
+                img: "https://via.placeholder.com/900x300",
+                map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.053710777071!2d78.04215561538458!3d27.175144482986768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747120d947a8c7%3A0x5e0a4e9b8e87a800!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1604567890123!5m2!1sen!2sin",
+                ticket: "Entry fee: ₹50 for Indians, ₹1100 for foreigners. Open from sunrise to sunset."
+            },
+            "Eiffel Tower": {
+                description: "The Eiffel Tower is one of the most famous landmarks in the world, located in Paris, France.",
+                img: "https://via.placeholder.com/900x300",
+                map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999678406805!2d2.292292415674836!3d48.85837360807359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdb1c2d684b%3A0x6e9b5ebfcb4e74f1!2sEiffel%20Tower!5e0!3m2!1sen!2sfr!4v1604567890123!5m2!1sen!2sfr",
+                ticket: "Entry fee: €16 for adults. Open daily from 9:00 AM to 11:45 PM."
+            }
+        };
+
+        if (placesData[placeName]) {
+            document.getElementById("placeName").textContent = placeName;
+            document.getElementById("placeImage").src = placesData[placeName].img;
+            document.getElementById("placeDescription").textContent = placesData[placeName].description;
+            document.getElementById("placeMap").src = placesData[placeName].map;
+            document.getElementById("ticketDetails").textContent = placesData[placeName].ticket;
+        } else {
+            document.getElementById("placeName").textContent = "Place Not Found";
+            document.getElementById("placeDescription").textContent = "Sorry, we couldn't find details for this place.";
+        }
+    });
+</script>
+
+</body>
+</html>

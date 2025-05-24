@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhyatara - Car Rental</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Global Styles */
+    body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background:url(assets/CAR.png) no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }
+        /* Navbar */
+    .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0));
+            padding: 15px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    .navbar a {
+      color: #000000;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px 15px;
+    }
+        .logo {
+            display: flex;
+            align-items: center;
+            color: #000000;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .nav-links li {
+            display: inline;
+        }
+        .nav-links a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px;
+        }
+        .nav-links a:hover {
+            background: #006df3
+            border-radius: 5px;
+        }
+        .form-container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .car-search {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .car-search input, .car-search select, .car-search button {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ffffff;
+        }
+        .car-search button {
+            background: #006df3;
+            color: #EEE5DA;
+            border: none;
+            cursor: pointer;
+        }
+        .car-search button:hover {
+            background: #EEE5DA; color: #ffffff;
+        }
+        .car-list {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .car-card {
+            background: #ffffff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            transition: transform 0.3s ease-in-out;
+        }
+        .car-card:hover {
+            transform: scale(1.05);
+        }
+        .car-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .car-card .book-btn {
+            display: block;
+            margin-top: 10px;
+            padding: 10px;
+            background: #ffffff;
+            color: #006df3;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .car-card .book-btn:hover {
+            background: rgb(255, 255, 255); color: #262424;
+        }
+        footer {
+            background: #ffffff;
+            color: #000000;
+            padding: 20px;
+            text-align: center;
+            margin-top: auto;
+            width: 100%;
+        }
+    </style>
+    <script>
+        function searchCars() {
+            const carType = document.getElementById("carType").value;
+            const carsContainer = document.getElementById("carsContainer");
+            carsContainer.innerHTML = "";
+            
+            const cars = [
+                { name: "Toyota Corolla", type: "Economy", price: "$50/day", img: "assets/car/toyota.jpg" },
+                { name: "Ford Explorer", type: "SUV", price: "$80/day", img: "assets/car/ford bronco.jpg" },
+                { name: "Mercedes S-Class", type: "Luxury", price: "$150/day", img: "assets/car/s-class.jpg" },
+                { name: "Honda Civic", type: "Economy", price: "$45/day", img: "assets/car/honda civic.jpg" },
+                { name: "Jeep Wrangler", type: "SUV", price: "$90/day", img: "assets/car/rubycon.jpg" },
+                { name: "Bentley Flying Spur", type: "Luxury", price: "$160/day", img: "assets/car/Bentley.jpg" }
+            ];
+            
+            const filteredCars = cars.filter(car => car.type === carType);
+            
+            filteredCars.forEach(car => {
+                const carCard = document.createElement("div");
+                carCard.classList.add("car-card");
+                carCard.innerHTML = `
+                    <img src="${car.img}" alt="${car.name}">
+                    <h3>${car.name}</h3>
+                    <p>Type: ${car.type}</p>
+                    <p>Price: ${car.price}</p>
+                    <a href="#" class="book-btn">Book Now</a>
+                `;
+                carsContainer.appendChild(carCard);
+            });
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="new.html">
+                <img src="assets/Logo.png" alt="Shubh Yatra Logo">
+            </a>
+        </div>
+    
+        </div>
+        <ul class="nav-links">
+            <li><a href="new.html">Home</a></li>
+            <li><a href="hotel1.html">Hotels</a></li>
+            <li><a href="car rental.html">Car Rental</a></li>
+            <li><a href="cruises.html">Cruises</a></li>
+        </ul>
+        <ul class="nav-links">
+            <li><a href="about.html">about us</a></li>
+            <li><a href="contact.html">contact us</a></li>
+        </ul>
+    </nav>
+    
+    <div class="form-container">
+        <h2>Find a Car Rental</h2>
+        <div class="car-search">
+            <input type="text" id="pickupLocation" placeholder="Enter Pickup Location">
+            <input type="date" id="pickupDate">
+            <input type="date" id="returnDate">
+            <select id="carType">
+                <option>Economy</option>
+                <option>SUV</option>
+                <option>Luxury</option>
+            </select>
+            <button onclick="searchCars()">Search Cars</button>
+        </div>
+        
+        <div class="car-list" id="carsContainer"></div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Subhyatara. All rights reserved.</p>
+        <p>Contact us: support@subhyatara.com | +1 234 567 890</p>
+        <p>Follow us: Facebook | Twitter | Instagram</p>
+    </footer>
+</body>
+</html>

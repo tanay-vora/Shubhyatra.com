@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Subhyatara</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+     /* Global Styles */
+     body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background:url(assets/TRAIN.png) no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0));
+            padding: 15px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            color: #FFF;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background 0.3s ease-in-out;
+        }
+
+        .nav-links a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+  
+    .info-box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .info-box i {
+      font-size: 32px;
+      color: #f9b234;
+      margin-bottom: 10px;
+      border: 2px dotted #f9b234;
+      border-radius: 50%;
+      padding: 15px;
+    }
+    .contact-form input, .contact-form textarea {
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      margin-top: 30px;
+      border-radius: 8px;
+    }
+    /* Footer */
+    footer {
+            background:transparent;
+            color: #000000;
+            padding: 20px;
+            text-align: center;
+            margin-top: auto;
+            width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Shadow on top */
+}
+
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            text-align: left;
+        }
+
+        .footer-section h4 {
+            margin-bottom: 10px;
+        }
+  </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="new.html">
+                <img src="assets/Logo.png" alt="Subhyatara Logo">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="new.html">Home</a></li>
+            <li><a href="hotel.html">Hotels</a></li>
+            <li><a href="car rental.html">Car Rental</a></li>
+            <li><a href="bus.html">Bus Services</a></li>
+        </ul>
+        <ul class="nav-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+
+<div class="container py-5">
+  <div class="row text-center mb-4">
+    <div class="col-md-4">
+      <div class="info-box">
+        <i class="fas fa-map-marker-alt"></i>
+        <h5 class="mt-2 fw-bold">Our Address</h5>
+        <p>Topaz 38, Silver Spring Phase-2, Indore, 452001</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="info-box">
+        <i class="fas fa-envelope"></i>
+        <h5 class="mt-2 fw-bold">Email Us</h5>
+        <p>sahupranjal816@gmail.com</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="info-box">
+        <i class="fas fa-phone"></i>
+        <h5 class="mt-2 fw-bold">Call Us</h5>
+        <p>+91 7440950076</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6 mb-4">
+      <!-- Google Maps Embed -->
+      <iframe src="https://www.google.com/maps?q=Topaz+38+silver+spring+phase-2,+Indore,+452001&output=embed" allowfullscreen></iframe>
+    </div>
+    <div class="col-lg-6">
+      <form class="contact-form">
+        <div class="row mb-3">
+          <div class="col-md-6 mb-3 mb-md-0">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="form-control" placeholder="Your Email" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" placeholder="Subject" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary px-4">Send Message</button>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Company</h4>
+            <p>About Us</p>
+            <p>Contact</p>
+            <p>Careers</p>
+        </div>
+        <div class="footer-section">
+            <h4>Support</h4>
+            <p>FAQs</p>
+            <p>Help Center</p>
+            <p>Terms of Service</p>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <p>Facebook | Twitter | Instagram</p>
+        </div>
+        <div class="footer-section">
+            <h4>Our Services</h4>
+            <p>Flight Booking</p>
+            <p>Hotel Reservations</p>
+            <p>Travel Packages</p>
+        </div>
+    </div>
+</footer>
+
+</div>
+
+</body>
+</html>

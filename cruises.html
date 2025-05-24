@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruise Booking - Shubh Yatra</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+         /* Global Styles */
+    body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background:url(assets/cruise.png) no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }
+        /* Navbar */
+    .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0));
+            padding: 15px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    .navbar a {
+      color: #000000;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px 15px;
+    }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #EEE5DA text-align: center; }
+        header { background: transparent; color: #000000; padding: 15px; text-align: center; }
+        .container { max-width: 900px; margin: 20px auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+        
+        .navbar a:hover { background: ##d8894c; border-radius: 5px; }
+        .logo { font-size: 24px; font-weight: bold; }
+
+        /* Cruise Search */
+        .cruise-search { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+        .cruise-search input, .cruise-search select, .cruise-search button {
+            padding: 10px; font-size: 16px; border-radius: 5px; border: 1px solid #ddd; 
+        }
+        .cruise-search button { background: #262424; color: #EFDFBB; border: none; cursor: pointer; }
+        .cruise-search button:hover { background: #EFDFBB; color: #262424;}
+
+        /* Cruise Cards */
+        .cruise-list { margin-top: 20px; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+        .cruise-card {
+            background: #EEE5DA; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: left;
+        }
+        .cruise-card img { width: 100%; border-radius: 5px; height: 150px; object-fit: cover; }
+        .cruise-card h3 { margin: 10px 0; }
+        .cruise-card .details { font-size: 14px; color: #555; }
+        .cruise-card button {
+            width: 100%; padding: 10px; margin-top: 10px; background: #262424; color: #EEE5DA; border: none; border-radius: 5px; cursor: pointer;
+        }
+        .cruise-card button:hover { background: #EEE5DA; color: #262424; }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <a href="new.html" class="logo">Shubh Yatra</a>
+    <div>
+        <a href="new.html">Home</a>
+        <a href="about.html">About Us</a>
+    </div>
+</div>
+
+<header>
+    <h1>Find Your Perfect Cruise 🚢</h1>
+</header>
+
+<div class="container">
+    <!-- Cruise Search Form -->
+    <div class="cruise-search">
+        <input type="text" id="departurePort" placeholder="From (Port)">
+        <input type="text" id="destinationPort" placeholder="To (Port)">
+        <input type="date" id="departDate">
+        <input type="date" id="returnDate">
+        <select id="passengers">
+            <option>1 Passenger</option>
+            <option>2 Passengers</option>
+            <option>3 Passengers</option>
+        </select>
+        <select id="cabinClass">
+            <option>Economy</option>
+            <option>Luxury</option>
+        </select>
+        <button onclick="searchCruises()">Search Cruises</button>
+    </div>
+
+    <!-- Cruise Results -->
+    <div class="cruise-list" id="cruisesContainer"></div>
+</div>
+
+<script>
+    function searchCruises() {
+        const cruises = [
+            {
+                name: "Caribbean Explorer",
+                company: "Oceanic Cruises",
+                from: "Miami",
+                to: "Bahamas",
+                departureTime: "2025-03-15",
+                duration: "5 Days",
+                price: "$1200",
+                image: "assets/cruise/Cruise 1.jpg"
+            },
+            {
+                name: "Mediterranean Dream",
+                company: "Royal Seaways",
+                from: "Barcelona",
+                to: "Rome",
+                departureTime: "2025-04-10",
+                duration: "7 Days",
+                price: "$1800",
+                image: "assets/cruise/Cruise 2 luxury.jpg"
+            }
+        ];
+
+        const cruisesContainer = document.getElementById("cruisesContainer");
+        cruisesContainer.innerHTML = "";
+
+        cruises.forEach(cruise => {
+            const cruiseCard = document.createElement("div");
+            cruiseCard.classList.add("cruise-card");
+            cruiseCard.innerHTML = `
+                <img src="${cruise.image}" alt="${cruise.name}">
+                <h3>${cruise.name}</h3>
+                <p class="details"><strong>Company:</strong> ${cruise.company}</p>
+                <p class="details"><strong>From:</strong> ${cruise.from} <br> <strong>To:</strong> ${cruise.to} </p>
+                <p class="details"><strong>Departure:</strong> ${cruise.departureTime} <br> <strong>Duration:</strong> ${cruise.duration} </p>
+                <p class="details"><strong>Price:</strong> ${cruise.price} </p>
+                <button>Book Now</button>
+            `;
+            cruisesContainer.appendChild(cruiseCard);
+        });
+    }
+</script>
+
+</body>
+</html>

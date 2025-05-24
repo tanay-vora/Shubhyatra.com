@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhyatara - Explore the World</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+         body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background:url(assets/Flight.png) no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }
+       /* Navbar */
+    .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0));
+            padding: 15px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    .navbar a {
+      color: #000000;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px 15px;
+    }
+        .logo {
+            display: flex;
+            align-items: center;
+            color: #EEE5DA;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .nav-links li {
+            display: inline;
+        }
+        .nav-links a {
+            background-color:transparent; color: #070707;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px;
+        }
+        .nav-links a:hover {
+            background: #EEE5DA
+            ;color: #262424;
+            border-radius: 5px;
+        }
+        .form-container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(220, 216, 216, 0.1);
+        }
+        .flight-search {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .flight-search input, .flight-search select, .flight-search button {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .flight-search button {
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .flight-search button:hover {
+            background: black;color: white;
+        }
+        .flight-list {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .flight-card {
+            background: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            transition: transform 0.3s ease-in-out;
+        }
+        .flight-card:hover {
+            transform: scale(1.05);
+        }
+        .flight-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+      
+
+
+footer {
+    background: #262424;
+    color: #EEE5DA;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+}
+
+        
+        .footer-section {
+            text-align: left;
+        }
+        .footer-section h4 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+       
+
+        <div class="logo">
+            <a href="new.html">
+                <img src="assets/Logo.png" alt="Subhyatara Logo">
+            </a>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="new.html">Home</a></li>
+            <li><a href="flight1.html">Flights</a></li>
+            <li><a href="car rental.html">Car Rental</a></li>
+            <li><a href="cruises.html">Cruises</a></li>
+        </ul>
+        <ul class="nav-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <div class="form-container">
+        <h2>Book a Flight</h2>
+        <div class="flight-search">
+            <input type="text" id="departure" placeholder="From (City/Airport)">
+            <input type="text" id="destination" placeholder="To (City/Airport)">
+            <input type="date" id="departDate">
+            <input type="date" id="returnDate">
+            <select id="passengers">
+                <option>1 Passenger</option>
+                <option>2 Passengers</option>
+                <option>3 Passengers</option>
+            </select>
+            <select id="class">
+                <option value="economy">Economy</option>
+                <option value="business">Business</option>
+                <option value="firstclass">First Class</option>
+            </select>
+            <button onclick="fetchFlights()">Search Flights</button>
+        </div>
+        
+        <div class="flight-list" id="flightsContainer"></div>
+        
+    </div>
+    
+    <footer>
+        <div class="footer-section">
+            <h4>Company</h4>
+            <p>About Us</p>
+            <p>Contact</p>
+            <p>Careers</p>
+        </div>
+        <div class="footer-section">
+            <h4>Support</h4>
+            <p>FAQs</p>
+            <p>Help Center</p>
+            <p>Terms of Service</p>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <p>Facebook | Twitter | Instagram</p>
+        </div>
+        <div class="footer-section">
+            <h4>Our Services</h4>
+            <p>Flight Booking</p>
+            <p>Hotel Reservations</p>
+            <p>Travel Packages</p>
+        </div>
+    </footer>
+
+    <script>
+        async function fetchFlights() {
+    const departure = document.getElementById("departure").value.trim().toLowerCase();
+    const destination = document.getElementById("destination").value.trim().toLowerCase();
+    const departDate = document.getElementById("departDate").value;
+    const returnDate = document.getElementById("returnDate").value;
+    const passengers = document.getElementById("passengers").value;
+    const flightClass = document.getElementById("class").value;
+    const flightsContainer = document.getElementById("flightsContainer");
+
+    if (!departure || !destination || !departDate) {
+        alert("Please fill in all required fields.");
+        return;
+    }
+
+    flightsContainer.innerHTML = "<p class='loading-text'>Searching for flights...</p>";
+
+    try {
+        const response = await fetch(`http://localhost:8000/search-flights/${departure}/${destination}`);
+        if (!response.ok) {
+            throw new Error("No flights found");
+        }
+
+        const flights = await response.json();
+        flightsContainer.innerHTML = "";
+
+        if (flights.length === 0) {
+            flightsContainer.innerHTML = "<p class='no-flights'>No flights found for this route.</p>";
+            return;
+        }
+
+        flights.forEach(flight => {
+            const flightCard = document.createElement("div");
+            flightCard.classList.add("flight-card");
+            flightCard.innerHTML = `
+                <div class="flight-info">
+                    <h3 class="flight-name">${flight.Airline}</h3>
+                    <p class="flight-route">${flight.From} → ${flight.To}</p>
+                    <p class="flight-time">Departure: ${flight.Departure}</p>
+                    <p class="flight-time">Duration: ${flight.Duration}</p>
+
+                    <p class="flight-price">Price: $${flight.Price}</p>
+                    <p class="flight-class">Class: ${flightClass.charAt(0).toUpperCase() + flightClass.slice(1)}</p>
+                    <button class="book-btn" onclick="bookFlight('${flight.id}')">Book Now</button>
+                </div>
+            `;
+            flightsContainer.appendChild(flightCard);
+        });
+    } catch (error) {
+        flightsContainer.innerHTML = `<p class="error-message">${error.message}</p>`;
+    }
+}
+
+async function bookFlight(flightId) {
+    try {
+        const response = await fetch(`http://localhost:8000/book/flight/${flightId}`, {
+            method: "POST",
+        });
+        if (!response.ok) {
+            throw new Error("Failed to book flight");
+        }
+        alert("Flight booked successfully!");
+    } catch (error) {
+        console.error("Error booking flight:", error);
+    }
+}
+
+document.querySelector("#searchFlightsBtn").addEventListener("click", fetchFlights);
+    </script>
+    
+    <style>
+        .book-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition:  0.3s ease-in-out, transform 0.2s;
+        }
+    
+        .book-btn:hover {
+            background-color: #;
+            transform: scale(1.05);
+        }
+    </style>
+    
+</body>
+</html>

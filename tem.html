@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhyatara - Book Your Stay</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            text-align: center; 
+            background: #EEE5DA; 
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #262424;
+            padding: 15px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            color: #EEE5DA;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .nav-links li {
+            display: inline;
+        }
+        .nav-links a {
+            color: #EEE5DA;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px;
+        }
+        .nav-links a:hover {
+            background: #444;
+            border-radius: 5px;
+        }
+        .form-container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #EEE5DA;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .hotel-search {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .hotel-search input, .hotel-search select, .hotel-search button {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .hotel-search button {
+            background: #262424;
+            color: #EEE5DA;
+            border: none;
+            cursor: pointer;
+        }
+        .hotel-search button:hover {
+            background: #444;
+        }
+        .hotel-list {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .hotel-card {
+            background: #EEE5DA;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            transition: transform 0.3s ease-in-out;
+        }
+        .hotel-card:hover {
+            transform: scale(1.05);
+        }
+        .hotel-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .hotel-card .rating {
+            font-size: 18px;
+            color: #262424;
+        }
+        .hotel-card .book-btn {
+            display: block;
+            margin-top: 10px;
+            padding: 10px;
+            background: #262424;
+            color: #EEE5DA;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .hotel-card .book-btn:hover {
+            background: #444;
+        }
+        footer {
+            background: #262424;
+            color: #EEE5DA;
+            padding: 20px;
+            text-align: center;
+            margin-top: auto;
+            width: 100%;
+        }
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            text-align: left;
+        }
+        .footer-section h4 {
+            margin-bottom: 10px;
+        }
+    </style>
+    <script>
+        function searchHotels() {
+            const location = document.getElementById("location").value.trim().toLowerCase();
+            const checkIn = document.getElementById("checkIn").value;
+            const checkOut = document.getElementById("checkOut").value;
+            const guests = document.getElementById("guests").value;
+
+            if (!location || !checkIn || !checkOut) {
+                alert("Please fill in all fields.");
+                return;
+            }
+
+            const hotelsContainer = document.getElementById("hotelsContainer");
+            hotelsContainer.innerHTML = "";
+
+            const hotels = {
+                "new york": [
+                    { name: "Luxury NYC Hotel", rating: "⭐⭐⭐⭐⭐", img: "hotel1.jpg" },
+                    { name: "NYC Budget Stay", rating: "⭐⭐⭐⭐", img: "hotel2.jpg" }
+                ],
+                "los angeles": [
+                    { name: "LA Cozy Retreat", rating: "⭐⭐⭐⭐", img: "hotel3.jpg" },
+                    { name: "Hollywood Hotel", rating: "⭐⭐⭐⭐⭐", img: "hotel4.jpg" }
+                ],
+                "paris": [
+                    { name: "Eiffel View Hotel", rating: "⭐⭐⭐⭐⭐", img: "hotel5.jpg" },
+                    { name: "Parisian Charm", rating: "⭐⭐⭐⭐", img: "hotel6.jpg" }
+                ]
+            };
+
+            if (hotels[location]) {
+                hotels[location].forEach(hotel => {
+                    const hotelCard = document.createElement("div");
+                    hotelCard.classList.add("hotel-card");
+                    hotelCard.innerHTML = `
+                        <img src="${hotel.img}" alt="${hotel.name}">
+                        <h3>${hotel.name}</h3>
+                        <p class="rating">${hotel.rating}</p>
+                        <a href="#" class="book-btn">Book Now</a>
+                    `;
+                    hotelsContainer.appendChild(hotelCard);
+                });
+            } else {
+                hotelsContainer.innerHTML = "<p>No hotels found for this location.</p>";
+            }
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="new.html">
+                <img src="assets/Logo.png" alt="Subhyatara Logo">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="new.html">Home</a></li>
+            <li><a href="hotel.html">Hotels</a></li>
+            <li><a href="car rental.html">Car Rental</a></li>
+            <li><a href="cruises.html">Cruises</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

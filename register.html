@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Shubh Yatra</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #EEE5DA url('images/background.jpg') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .register-container {
+            background: #EEE5DA(255, 255, 255, 0.9);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 320px;
+        }
+        .register-container h2 {
+            margin-bottom: 1rem;
+        }
+        .register-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #EEE5DA;
+            border-radius: 5px;
+        }
+        .register-container button {
+            width: 100%;
+            padding: 10px;
+            background: #28A745;
+            border: none;
+            color: EEE5DA;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .register-container button:hover {
+            background: #262424;color: #EEE5DA;
+        }
+        .register-container p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .register-container a {
+            color: #262424;
+            text-decoration: none;
+        }
+        .register-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="register-container">
+        <h2>Create an Account</h2>
+        <form action="register.php" method="POST">
+            <input type="text" name="full_name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+            <button type="submit">Register</button>
+        </form>
+        
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </div>
+
+</body>
+</html>

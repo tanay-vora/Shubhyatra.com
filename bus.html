@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subhyatara - Book Your Buses</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+     /* Global Styles */
+     body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background:url(assets/BUS.png) no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0));
+            padding: 15px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .logo {
+            display: flex;
+            align-items: center;
+            color: #FFF;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background 0.3s ease-in-out;
+        }
+
+        .nav-links a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+    .form-container {
+      max-width: 800px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .Bus-search {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .Bus-search input,
+    .Bus-search select,
+    .Bus-search button {
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .Bus-search button {
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .Bus-search button:hover {
+      background-color: #000;
+    }
+
+    .Bus-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .bus-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: white;
+    }
+
+    .bus-details p {
+      margin: 4px 0;
+      font-size: 14px;
+    }
+
+    .bus-actions {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 5px;
+    }
+
+    .rating-stars {
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .rating-stars .star {
+      color: gold;
+    }
+
+    .book-btn {
+      background-color: #007bff;
+      color: white;
+      padding: 6px 12px;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .book-btn:hover {
+      background-color: #000;
+      color: white;
+    }
+     /* Footer */
+     footer {
+            background:#F0F0F0;
+            color: #000000;
+            padding: 20px;
+            text-align: center;
+            margin-top: auto;
+            width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Shadow on top */
+}
+
+        .footer-container {
+            display: flex;  
+            justify-content: space-around;
+            text-align: left;
+        }
+
+        .footer-section h4 {
+            margin-bottom: 10px;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+        <a href="new.html">
+            <img src="assets/Logo.png" alt="Subhyatara Logo">
+        </a>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="new.html">Home</a></li>
+        <li><a href="hotel1.html">Hotels</a></li>
+        <li><a href="car rental.html">Car Rental</a></li>
+        <li><a href="bus.html">Bus</a></li>
+    </ul>
+    <ul class="nav-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+  <div class="form-container">
+    <h2>Find a Bus</h2>
+    <div class="Bus-search">
+      <input type="text" id="departure" placeholder="From City">
+      <input type="text" id="destination" placeholder="To City">
+      <input type="date" id="tdate">
+      <select id="guests">
+        <option>1 Person</option>
+        <option>2 Person</option>
+        <option>3 Person</option>
+      </select>
+      <button onclick="searchBuses()">Search Buses</button>
+    </div>
+    <div class="Bus-list" id="busesContainer"></div>
+  </div>
+  <footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Company</h4>
+            <p>About Us</p>
+            <p>Contact</p>
+            <p>Careers</p>
+        </div>
+        <div class="footer-section">
+            <h4>Support</h4>
+            <p>FAQs</p>
+            <p>Help Center</p>
+            <p>Terms of Service</p>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <p>Facebook | Twitter | Instagram</p>
+        </div>
+        <div class="footer-section">
+            <h4>Our Services</h4>
+            <p>Flight Booking</p>
+            <p>Bus Reservations</p>
+            <p>Travel Packages</p>
+        </div>
+    </div>
+</footer>
+
+
+  <script>
+    async function searchBuses() {
+      const departure = document.getElementById("departure").value.trim().toLowerCase();
+      const destination = document.getElementById("destination").value.trim().toLowerCase();
+      const date = document.getElementById("tdate").value;
+      const guests = document.getElementById("guests").value;
+      const busesContainer = document.getElementById("busesContainer");
+
+      if (!departure || !destination || !date) {
+        alert("Please fill in all fields.");
+        return;
+      }
+
+      busesContainer.innerHTML = "<p>Searching for Buses...</p>";
+
+      try {
+        const response = await fetch(`http://localhost:8000/search-bus/${departure}/${destination}`);
+        if (!response.ok) throw new Error("No buses found.");
+
+        const buses = await response.json();
+        busesContainer.innerHTML = "";
+
+        buses.forEach(bus => {
+          const busItem = document.createElement("div");
+          busItem.classList.add("bus-item");
+
+          busItem.innerHTML = `
+            <div class="bus-details">
+              <p><strong>Name:</strong> ${bus.name}</p>
+              <p><strong>Type:</strong> ${bus.subtitle}</p>
+              <p><strong>Price:</strong> ₹${bus.price}</p>
+            </div>
+            <div class="bus-actions">
+              <div class="rating-stars">${bus.rating} <span class="star">⭐</span></div>
+              <a href="#" class="book-btn">Book Now</a>
+            </div>
+          `;
+          busesContainer.appendChild(busItem);
+        });
+
+      } catch (err) {
+        busesContainer.innerHTML = `<p>Error: ${err.message}</p>`;
+      }
+    }
+  </script>
+</body>
+</html>
